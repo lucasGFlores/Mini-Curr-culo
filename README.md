@@ -2,15 +2,19 @@
 # Mini-Currículo
 ## Lucas Gabriel Flores
 <b> Formação acadêmica </b>
+
 9° Ano na Escola Modelo
 
 <b>Cursando </b>
+
 Escola S 2° Ano curso Técnico Integrado, com os cursos extras de T.I, Sistemas e Programação
 
 <b>bjetivos </b>
+
 Conseguir estudo no campo de T.I, para conseguir um emprego na área especializada de Cyber segurança
 
 <b>Habilidades </b>
+
 Wecxel - iniciante
 Google sites - iniciantes
 Programação em java e C# - iniciante
@@ -19,6 +23,7 @@ Inglês - intermediário (consigo ler e escrever em inglês, mas sofro dificulda
 Japonês - iniciante
 
 <b>Experiência </b>
+
 Nenhuma
 
 <b>Sobre mim </b>
