@@ -16,11 +16,14 @@ Conseguir estudo no campo de T.I, para conseguir um emprego na área especializa
 <b>Habilidades </b>
 
 Wecxel - iniciante
+
 Google sites - iniciantes
+
 Programação em java e C# - iniciante
+
 Desenhar - intermediário
+
 Inglês - intermediário (consigo ler e escrever em inglês, mas sofro dificuldade em falar)
-Japonês - iniciante
 
 <b>Experiência </b>
 
