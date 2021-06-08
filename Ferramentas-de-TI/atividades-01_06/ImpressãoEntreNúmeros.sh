@@ -14,3 +14,8 @@ fi
         if [ $n -gt 0 ]
 
         then
+                for i in $(seq 1 $n)
+                do
+                        echo "$i"
+                done
+        fi
