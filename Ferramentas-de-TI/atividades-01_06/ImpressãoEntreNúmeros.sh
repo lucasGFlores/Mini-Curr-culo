@@ -1,15 +1,16 @@
 Autor: Lucas Gabriel Flores
-Descrição: imprime Números entre a váriavel que vai ser lida pelo comando e o número 1
+Descrição: imprime Números entre a váriavel que vai ser lida pelo comando e o número 1. Caso usuário coloque um numero negativo, ele virará 42
 
 #!/bin/bash
-
 echo "Digite um número!"
 read n
 
-if [ $n -gt 0 ]
+if [ $n -lt 0 ]
+
 then
-        for i in $(seq 1 $n)
-        do
-                echo "$i"
-        done
+        n=42 
 fi
+
+        if [ $n -gt 0 ]
+
+        then
