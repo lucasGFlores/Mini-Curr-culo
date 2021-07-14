@@ -1,5 +1,5 @@
-# Lucas Gabriel Flores
-# Pega informações dos usuários
+#Autor: Lucas Gabriel Flores
+#Descrição: Pega informações dos usuários
 
 import javax.swing.JOptionPane;
 public class boger {
