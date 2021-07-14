@@ -1,0 +1,47 @@
+
+
+package batatinhagameplays;
+
+import java.awt.HeadlessException;
+import javax.swing.JOptionPane;
+
+
+public class Batatinhagameplays {
+    int n;
+ public int arroz(){
+  try{
+   n = 
+            Integer.parseInt
+        (JOptionPane.showInputDialog(null,"Quantos passos até a porta"));
+  } 
+ catch(HeadlessException | NumberFormatException e){
+    JOptionPane.showMessageDialog(null,"ERRO!"); 
+           arroz();
+           
+         
+ }
+  return n;
+     
+ }
+    public static void main(String[] args) {
+        Batatinhagameplays p = new Batatinhagameplays();
+        
+        p.passos();
+    }
+    
+    public void passos() {
+     int PassosTotal = arroz();
+     int PassosDados;
+        PassosDados = 0;
+  
+     
+    while (PassosTotal > PassosDados){
+    PassosDados++;
+        JOptionPane.showMessageDialog(null,"você deu " +PassosDados);
+    }
+    if(PassosDados == PassosTotal){
+     JOptionPane.showMessageDialog(null,"você chegou até a porta");
+    }
+    }
+    
+}
