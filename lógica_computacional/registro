@@ -1,0 +1,17 @@
+# Lucas Gabriel Flores
+# Pega informações dos usuários
+
+import javax.swing.JOptionPane;
+public class boger {
+    public static void main (String[] args){
+ boger b = new boger(); 
+  b.informações();
+  }
+  public void informações(){
+   String nome = JOptionPane.showInputDialog("Coloque seu nome");
+   int AnoDeNascimento = Integer.parseInt(JOptionPane.showInputDialog("coloque o ano que você nasceu"));
+   int idade = (2021-AnoDeNascimento);
+   nome = (nome+ "você tem " +idade);
+   JOptionPane.showMessageDialog(null, nome);
+}
+
