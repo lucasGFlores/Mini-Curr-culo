@@ -1,5 +1,9 @@
 
 # Mini-Currículo
+
+#Fundamentos-de-TI
+[atividades](Ferramentas-de-TI/)
+
 ## Lucas Gabriel Flores
 <b> Formação acadêmica </b>
 
