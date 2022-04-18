@@ -1,9 +1,13 @@
 
 # Mini-Currículo
 
-#Fundamentos-de-TI
-[atividades](Ferramentas-de-TI/)
-
+## Pastas das atividades
+[Linux](Ferramentas-de-TI/)
+[Banco de dados](bancoDeDados/)
+[Lógica de programação-java](lógica_computacional/) 
+[modelagem de sistemas](modelagemDeSistemas/) 
+[programação de aplicativos](programacaoDeApp/)
+[Autorias](autorias/)
 ## Lucas Gabriel Flores
 <b> Formação acadêmica </b>
 
