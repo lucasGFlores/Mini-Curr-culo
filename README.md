@@ -4,13 +4,15 @@
 ## Pastas das atividades
 [Linux](Ferramentas-de-TI/)
 
-[Banco de dados](bancoDeDados/)
+[Banco de dados/zoológico](bancoDeDados/zoologico.sql) escolhi esse pois foi fundamental para criar bancos de dados mais complexos
 
-[Lógica de programação-java](lógica_computacional/) 
+[Banco de dados/loja de roupa](bancoDeDados/lojaDeRoupa.sql)
 
-[modelagem de sistemas](modelagemDeSistemas/) 
+[Lógica de programação-java](lógica_computacional/) escolhi porque foi a primeira atividade da matéria e fundamental para relembrar os conceitos
 
-[programação de aplicativos](programacaoDeApp/)
+[modelagem de sistemas/ambiente](modelagemDeSistemas/xexenia/) atividade fundamental para o preparamente da prova
+
+[programação de aplicativos/calculadora maneira](programacaoDeApp/'calculadora maneira'/) escolhi por mostrar as possibilidades do android studio, sofware esse usado na programação de diversos aplicativos de celular em java
 
 [Autorias](autorias/)
 
