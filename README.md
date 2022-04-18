@@ -3,15 +3,21 @@
 
 ## Pastas das atividades
 [Linux](Ferramentas-de-TI/)
+
 [Banco de dados](bancoDeDados/)
+
 [Lógica de programação-java](lógica_computacional/) 
+
 [modelagem de sistemas](modelagemDeSistemas/) 
+
 [programação de aplicativos](programacaoDeApp/)
+
 [Autorias](autorias/)
+
 ## Lucas Gabriel Flores
 <b> Formação acadêmica </b>
 
-9° Ano na Escola Modelo
+3° Ano do Ensino Médio da Escola S
 
 <b>Cursando </b>
 
@@ -26,8 +32,6 @@ Conseguir estudo no campo de T.I, para conseguir um emprego na área especializa
 Wecxel - iniciante
 
 Google sites - iniciantes
-
-Programação em java e C# - iniciante
 
 Desenhar - intermediário
 
