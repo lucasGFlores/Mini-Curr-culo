@@ -12,7 +12,7 @@
 
 [modelagem de sistemas/ambiente](modelagemDeSistemas/xexenia/) atividade fundamental para o preparamente da prova
 
-[programação de aplicativos/calculadora maneira](programacaoDeApp/calculadora maneira/calculadoramaneira) escolhi por mostrar as possibilidades do android studio, sofware esse usado na programação de diversos aplicativos de celular em java
+[programação de aplicativos/calculadora maneira](programacaoDeApp/calculadora maneira/calculadoramaneira/) escolhi por mostrar as possibilidades do android studio, sofware esse usado na programação de diversos aplicativos de celular em java
 
 [Autorias](autorias/)
 
