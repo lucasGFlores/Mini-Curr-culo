@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gato_maconha"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"/>
+
+    <TextView
+        android:id="@+id/textoFoda"
+        android:layout_width="346dp"
+        android:layout_height="63dp"
+        android:background="#EDEAFF"
+        android:text="@string/calculadora_brutal_da_vingan_a_brutal"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/inithora"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/purple_700"
+        android:backgroundTint="#C2CAEC"
+        android:ems="10"
+        android:hint="Hora inicial"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoFoda"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <EditText
+        android:id="@+id/finhora"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/purple_700"
+        android:backgroundTint="#C2CAEC"
+        android:ems="10"
+        android:hint="Hora final"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoFoda"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <EditText
+        android:id="@+id/initmin"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/purple_700"
+        android:backgroundTint="#C2CAEC"
+        android:ems="10"
+        android:hint="Minuto inicial"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/inithora"
+        app:layout_constraintTop_toBottomOf="@+id/textoFoda"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <EditText
+        android:id="@+id/finmin"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/purple_700"
+        android:backgroundTint="#C2CAEC"
+        android:ems="10"
+        android:hint="Minuto final"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/inithora"
+        app:layout_constraintTop_toBottomOf="@+id/textoFoda"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A66E17"
+        android:onClick="resetar"
+        android:text="reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtrai"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <Button
+        android:id="@+id/soma"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
+        android:backgroundTint="#A66E17"
+        android:onClick="adicionar"
+        android:text="@string/soma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultHora" />
+
+    <Button
+        android:id="@+id/subtrai"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A66E17"
+        android:onClick="subtrair"
+        android:text="subtrai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soma"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <TextView
+        android:id="@+id/resultHora"
+        android:layout_width="156dp"
+        android:layout_height="42dp"
+        android:background="#E6EEFD"
+        android:hint="@string/resultado_hora"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/resultMinuto"
+        android:layout_width="158dp"
+        android:layout_height="41dp"
+        android:background="#E6EEFD"
+        android:hint="Resultado Minuto"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
