@@ -6,7 +6,7 @@
 
 [Banco de dados/zoológico](bancoDeDados/zoologico.sql) escolhi esse pois foi fundamental para criar bancos de dados mais complexos
 
-[Banco de dados/loja de roupa](bancoDeDados/lojaDeRoupa.sql)
+[Banco de dados/loja de roupa](bancoDeDados/lojaDeRoupa.sql) Ajudou a re aprender relações entre tabelas
 
 [Lógica de programação-java](lógica_computacional/) escolhi porque foi a primeira atividade da matéria e fundamental para relembrar os conceitos
 
