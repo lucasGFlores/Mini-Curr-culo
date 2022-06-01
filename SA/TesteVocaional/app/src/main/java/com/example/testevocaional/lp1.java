@@ -9,9 +9,23 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class lp1 extends AppCompatActivity {
+    int engenheiro1;
+    int eletricista1 = 0;
+    int advogado1 = 0;
+    int bicheiro1 = 0;
+    int criador_de_galo_de_briga1 = 0;
+    int pedreiro1 = 0;
+    int veterinario1 = 0;
+    int enfermeiro1 = 0;
+    int traficante1 = 0;
+    int programador1 = 0;
+    int policial1 = 0;
+    int mecanico1  = 0;
     ImageView m1, p1, g1, b1, m2, p2, g2, b2, m3, p3, g3, b3, m4, p4, g4, b4;
     ImageView m1v,p1v,b1v,g1v,m2v,p2v,g2v,b2v,m3v,p3v,g3v,b3v,m4v,p4v,g4v,b4v;
+
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
@@ -169,6 +183,7 @@ public class lp1 extends AppCompatActivity {
                  if(m4.getVisibility() == View.VISIBLE || p4.getVisibility() == View.VISIBLE || g4.getVisibility() == View.VISIBLE || b4.getVisibility() == View.VISIBLE ){
                      Intent i = new Intent(this,lp2.class);
                      startActivity(i);
+
                  }
                 }
             }
@@ -177,4 +192,5 @@ public class lp1 extends AppCompatActivity {
             Toast.makeText(this,"Responda tudo né porra",Toast.LENGTH_LONG).show();
         }
     }
+
 }

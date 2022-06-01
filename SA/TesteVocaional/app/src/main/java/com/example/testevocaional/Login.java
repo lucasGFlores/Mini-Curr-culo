@@ -20,6 +20,7 @@ public class Login extends AppCompatActivity {
 
     EditText nome, senha;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +38,7 @@ public class Login extends AppCompatActivity {
     public void passarFoda() {
         Intent i = new Intent(this, Escolhas.class);
         startActivity(i);
+
     }
     public void print(String msg){
         Toast t = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG);
