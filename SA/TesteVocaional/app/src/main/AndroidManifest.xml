@@ -34,7 +34,7 @@
             android:name=".Escolhas"
             android:exported="false" />
         <activity
-            android:name=".resultado"
+            android:name=".Resultado"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
