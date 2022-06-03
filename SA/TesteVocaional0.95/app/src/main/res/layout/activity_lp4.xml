@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulDorgaz"
+    tools:context=".lp4">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/indie_flower"
+        android:onClick="passar"
+        android:text="Próximo"
+        android:textAlignment="center"
+        android:textColor="@color/blancoLegal"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obesa_cheia4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/indie_flower"
+        android:onClick="voltar"
+        android:text="Voltar"
+        android:textAlignment="center"
+        android:textColor="@color/blancoLegal"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obesa_cheia4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074"
+        app:srcCompat="@drawable/pergunta5" />
+
+    <ImageView
+        android:id="@+id/obesa_vazia13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="68dp"
+        android:onClick="b13"
+        app:layout_constraintBottom_toBottomOf="@+id/gorda_vazia13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/gorda_vazia13"
+        app:layout_constraintTop_toTopOf="@+id/gorda_vazia13"
+        app:layout_constraintVertical_bias="0.194"
+        app:srcCompat="@drawable/obesa" />
+
+    <ImageView
+        android:id="@+id/gorda_vazia13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:onClick="g13"
+        app:layout_constraintBottom_toBottomOf="@+id/palito_vazia13"
+        app:layout_constraintStart_toEndOf="@+id/palito_vazia13"
+        app:layout_constraintTop_toTopOf="@+id/palito_vazia13"
+        app:srcCompat="@drawable/gorda" />
+
+    <ImageView
+        android:id="@+id/palito_vazia13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:onClick="p13"
+        app:layout_constraintBottom_toBottomOf="@+id/magra_vazia13"
+        app:layout_constraintStart_toEndOf="@+id/magra_vazia13"
+        app:layout_constraintTop_toTopOf="@+id/magra_vazia13"
+        app:srcCompat="@drawable/palito" />
+
+    <ImageView
+        android:id="@+id/magra_vazia13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:onClick="m13"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:layout_constraintVertical_bias="0.21"
+        app:srcCompat="@drawable/magra_vazia" />
+
+    <ImageView
+        android:id="@+id/obesa_cheia13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/obesa_vazia13"
+        app:layout_constraintEnd_toEndOf="@+id/obesa_vazia13"
+        app:layout_constraintStart_toStartOf="@+id/obesa_vazia13"
+        app:layout_constraintTop_toTopOf="@+id/obesa_vazia13"
+        app:srcCompat="@drawable/obesa_cheia" />
+
+    <ImageView
+        android:id="@+id/gorda_cheia13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/gorda_vazia13"
+        app:layout_constraintEnd_toEndOf="@+id/gorda_vazia13"
+        app:layout_constraintStart_toStartOf="@+id/gorda_vazia13"
+        app:layout_constraintTop_toTopOf="@+id/gorda_vazia13"
+        app:srcCompat="@drawable/gorda_cheia" />
+
+    <ImageView
+        android:id="@+id/palito_cheia13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/palito_vazia13"
+        app:layout_constraintEnd_toEndOf="@+id/palito_vazia13"
+        app:layout_constraintStart_toStartOf="@+id/palito_vazia13"
+        app:layout_constraintTop_toTopOf="@+id/palito_vazia13"
+        app:srcCompat="@drawable/magra_cheia" />
+
+    <ImageView
+        android:id="@+id/magro_cheia13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/magra_vazia13"
+        app:layout_constraintEnd_toEndOf="@+id/magra_vazia13"
+        app:layout_constraintStart_toStartOf="@+id/magra_vazia13"
+        app:layout_constraintTop_toTopOf="@+id/magra_vazia13"
+        app:srcCompat="@drawable/palito_cheio" />
+
+    <ImageView
+        android:id="@+id/gorda_vazia14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:onClick="g14"
+        app:layout_constraintBottom_toBottomOf="@+id/palito_vazia14"
+        app:layout_constraintStart_toEndOf="@+id/palito_vazia14"
+        app:layout_constraintTop_toTopOf="@+id/palito_vazia14"
+        app:srcCompat="@drawable/gorda" />
+
+    <ImageView
+        android:id="@+id/magra_vazia14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="m14"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:layout_constraintVertical_bias="0.572"
+        app:srcCompat="@drawable/magra_vazia" />
+
+    <ImageView
+        android:id="@+id/palito_vazia14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:onClick="p14"
+        app:layout_constraintBottom_toBottomOf="@+id/magra_vazia14"
+        app:layout_constraintStart_toEndOf="@+id/magra_vazia14"
+        app:layout_constraintTop_toTopOf="@+id/magra_vazia14"
+        app:srcCompat="@drawable/palito" />
+
+    <ImageView
+        android:id="@+id/obesa_vazia14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:onClick="b14"
+        app:layout_constraintBottom_toBottomOf="@+id/gorda_vazia14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/gorda_vazia14"
+        app:layout_constraintTop_toTopOf="@+id/gorda_vazia14"
+        app:srcCompat="@drawable/obesa" />
+
+    <ImageView
+        android:id="@+id/obesa_cheia14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/obesa_vazia14"
+        app:layout_constraintEnd_toEndOf="@+id/obesa_vazia14"
+        app:layout_constraintStart_toStartOf="@+id/obesa_vazia14"
+        app:layout_constraintTop_toTopOf="@+id/obesa_vazia14"
+        app:srcCompat="@drawable/obesa_cheia" />
+
+    <ImageView
+        android:id="@+id/gorda_cheia14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/gorda_vazia14"
+        app:layout_constraintEnd_toEndOf="@+id/gorda_vazia14"
+        app:layout_constraintStart_toStartOf="@+id/gorda_vazia14"
+        app:layout_constraintTop_toTopOf="@+id/gorda_vazia14"
+        app:srcCompat="@drawable/gorda_cheia" />
+
+    <ImageView
+        android:id="@+id/palito_cheia14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/palito_vazia14"
+        app:layout_constraintEnd_toEndOf="@+id/palito_vazia14"
+        app:layout_constraintStart_toStartOf="@+id/palito_vazia14"
+        app:layout_constraintTop_toTopOf="@+id/palito_vazia14"
+        app:srcCompat="@drawable/magra_cheia" />
+
+    <ImageView
+        android:id="@+id/magra_cheia14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/magra_vazia14"
+        app:layout_constraintEnd_toEndOf="@+id/magra_vazia14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/magra_vazia14"
+        app:layout_constraintTop_toTopOf="@+id/magra_vazia14"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/palito_cheio" />
+
+    <ImageView
+        android:id="@+id/obesa_vazia15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:onClick="b15"
+        app:layout_constraintBottom_toBottomOf="@+id/gorda_vazia15"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/gorda_vazia15"
+        app:layout_constraintTop_toTopOf="@+id/gorda_vazia15"
+        app:srcCompat="@drawable/obesa" />
+
+    <ImageView
+        android:id="@+id/gorda_vazia15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:onClick="g15"
+        app:layout_constraintBottom_toBottomOf="@+id/palito_vazio15"
+        app:layout_constraintStart_toEndOf="@+id/palito_vazio15"
+        app:layout_constraintTop_toTopOf="@+id/palito_vazio15"
+        app:srcCompat="@drawable/gorda" />
+
+    <ImageView
+        android:id="@+id/palito_vazio15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:onClick="p15"
+        app:layout_constraintBottom_toBottomOf="@+id/magro_vazio15"
+        app:layout_constraintStart_toEndOf="@+id/magro_vazio15"
+        app:layout_constraintTop_toTopOf="@+id/magro_vazio15"
+        app:srcCompat="@drawable/palito" />
+
+    <ImageView
+        android:id="@+id/magro_vazio15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="m15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:layout_constraintVertical_bias="0.123"
+        app:srcCompat="@drawable/magra_vazia" />
+
+    <ImageView
+        android:id="@+id/obesa_cheio15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/obesa_vazia15"
+        app:layout_constraintEnd_toEndOf="@+id/obesa_vazia15"
+        app:layout_constraintStart_toStartOf="@+id/obesa_vazia15"
+        app:layout_constraintTop_toTopOf="@+id/obesa_vazia15"
+        app:srcCompat="@drawable/obesa_cheia" />
+
+    <ImageView
+        android:id="@+id/gorda_cheia15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/gorda_vazia15"
+        app:layout_constraintEnd_toEndOf="@+id/gorda_vazia15"
+        app:layout_constraintStart_toStartOf="@+id/gorda_vazia15"
+        app:layout_constraintTop_toTopOf="@+id/gorda_vazia15"
+        app:srcCompat="@drawable/gorda_cheia" />
+
+    <ImageView
+        android:id="@+id/palito_cheio15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/palito_vazio15"
+        app:layout_constraintEnd_toEndOf="@+id/palito_vazio15"
+        app:layout_constraintStart_toStartOf="@+id/palito_vazio15"
+        app:layout_constraintTop_toTopOf="@+id/palito_vazio15"
+        app:srcCompat="@drawable/magra_cheia" />
+
+    <ImageView
+        android:id="@+id/magro_cheio15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/magro_vazio15"
+        app:layout_constraintEnd_toEndOf="@+id/magro_vazio15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/magro_vazio15"
+        app:layout_constraintTop_toTopOf="@+id/magro_vazio15"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/palito_cheio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
