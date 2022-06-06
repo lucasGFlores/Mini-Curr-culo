@@ -267,8 +267,9 @@ public class lp1 extends AppCompatActivity {
         return 0;
     }
     public void somarLegal(){
-        medico += verificaq1();
+        medico += verificaq1()+verificaq2()+verificaq4();
         engenheiro +=verificaq2()+verificaq4();
+        programador +=verificaq4()*1.5;
         medico +=verificaq2()+verificaq4();
         enfermeiro +=verificaq2()+verificaq3()+verificaq4();
         policial +=verificaq2()+verificaq3();

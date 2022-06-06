@@ -16,6 +16,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
+
 public class Cadastro extends AppCompatActivity {
     EditText nome,senha,senha2;
     Usuario u = new Usuario();
@@ -29,13 +31,6 @@ public class Cadastro extends AppCompatActivity {
         senha2 = findViewById(R.id.novaSenha2);
     }
 
-        public void loko(View v){
-        Usuario u =new Usuario();
-        u.setLogin("penes");
-        u.setSenha("123");
-        u.salvar_bd();
-
-        }
         public void passarTela(){
             Intent i = new Intent(this, Login.class);
             startActivity(i);
@@ -50,9 +45,7 @@ public class Cadastro extends AppCompatActivity {
         String tnome = nome.getText().toString();
         String tsenha = senha.getText().toString();
         String tsenha2 = senha2.getText().toString();
-        if (tnome.equals("") || tsenha.equals("")) {
-            print("penes");
-        }
+        if (tsenha.equals(tsenha2) && !tnome.equals("") && !tsenha.equals("")) {
             DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Usuario");
             ref.addValueEventListener(new ValueEventListener() {
                 @Override
@@ -66,17 +59,18 @@ public class Cadastro extends AppCompatActivity {
                             print("o usuário " + u.getLogin() + "existe");
                             break;
                         }
-                        if (!i) {
-
-                            print("Usuário não existe :D");
-                            u.setLogin(tnome);
-                            u.setSenha(tsenha);
-                            u.salvar_bd();
-                            passarTela();
-                        }
                     }
-                    String value = snapshot.getValue(String.class);
-                    print("Value is: " + value);
+                    if (!i) {
+
+                        print("Usuário não existe :D");
+
+                        Usuario u = new Usuario(tnome,tsenha);
+                        u.salvar_bd();
+                        passarTela();
+                    }
+                    nome.setText("");
+                    senha.setText("");
+                    senha2.setText("");
                 }
 
 
@@ -86,4 +80,8 @@ public class Cadastro extends AppCompatActivity {
                 }
             });
         }
+        else{
+            Toast.makeText(this, "Tem algo errado fi", Toast.LENGTH_SHORT).show();
+        }
+    }
     }

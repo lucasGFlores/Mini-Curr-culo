@@ -14,7 +14,7 @@
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="48dp"
         android:fontFamily="@font/indie_flower"
-        android:onClick="passar"
+        android:onClick="resultadoFoda"
         android:text="Próximo"
         android:textAlignment="center"
         android:textColor="@color/blancoLegal"

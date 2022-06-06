@@ -30,6 +30,7 @@ public class lp4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_lp4);
         m13 = findViewById(R.id.magro_cheia13);
         p13 = findViewById(R.id.palito_cheia13);
@@ -174,10 +175,11 @@ public class lp4 extends AppCompatActivity {
     public void somaLegal4(){
         advogado +=verificaq13()+verificaq14();
         policial +=verificaq15();
-        traficante += verificaq15();
+        traficante += verificaq15()*2;
     }
-    public void passar(View v){
+    public void resultadoFoda(View v){
         if(checar()) {
+            Toast.makeText(this, "AQUI", Toast.LENGTH_LONG).show();
             Resultado.engenheiro = engenheiro;
             Resultado.eletricista = eletricista;
             Resultado.advogado = advogado;

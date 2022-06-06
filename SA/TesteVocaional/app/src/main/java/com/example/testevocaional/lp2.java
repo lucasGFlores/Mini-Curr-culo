@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class lp2 extends AppCompatActivity {
@@ -32,7 +33,7 @@ public class lp2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lp2);
-
+        getSupportActionBar().hide();
 
 
         pv5 = findViewById(R.id.palito_vazia5);
@@ -227,13 +228,14 @@ public class lp2 extends AppCompatActivity {
         return 0;
     }
     public void somarFoda2(){
-        veterinario += verificaq5()+verificaq7();
+        veterinario += verificaq5()*2+verificaq7()*1.5;
         medico +=verificaq6()+verificaq7();
         enfermeiro +=verificaq6()+verificaq7();
         policial +=verificaq6()+verificaq7();
         advogado += verificaq7();
         eletricista +=verificaq8();
         pedreiro+=verificaq8()*1.5;
+        Toast.makeText(this, "Medicina : "+medico + "Programador : "+programador, Toast.LENGTH_SHORT).show();
 
 
     }
@@ -245,8 +247,7 @@ public class lp2 extends AppCompatActivity {
             if(mc7.getVisibility() == VISIBLE || pc7.getVisibility() == VISIBLE || gc7.getVisibility() == VISIBLE || oc7.getVisibility() == VISIBLE){
                 if(mc8.getVisibility() == VISIBLE || pc8.getVisibility() == VISIBLE || gc8.getVisibility() == VISIBLE || oc8.getVisibility() == VISIBLE ){
                     somarFoda2();
-                    Intent i = new Intent(this,lp2.class);
-                    startActivity(i);
+                    proxiga();
                     lp3.engenheiro = engenheiro;
                     lp3.eletricista = eletricista;
                     lp3.advogado = advogado;
@@ -268,5 +269,13 @@ public class lp2 extends AppCompatActivity {
         else{
         Toast.makeText(this,"Responda tudo né porra",Toast.LENGTH_LONG).show();
     }
+}
+public void voltar(View v){
+        Intent i = new Intent(this,lp1.class);
+        startActivity(i);
+}
+public void proxiga(){
+        Intent i = new Intent(this,lp3.class);
+        startActivity(i);
 }
 }

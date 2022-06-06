@@ -16,6 +16,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Objects;
+
 public class Login extends AppCompatActivity {
 
     EditText nome, senha;
@@ -40,24 +42,38 @@ public class Login extends AppCompatActivity {
         startActivity(i);
 
     }
-    public void print(String msg){
+
+    public void print(String msg) {
         Toast t = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG);
         t.show();
     }
 
     public void verificadorFoda(View v) {
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Usuatio");
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Usuario");
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                String nomet = nome.getText().toString();
-                String senhat = senha.getText().toString();
+                String nomea = nome.getText().toString();
+                String senhaa = senha.getText().toString();
+                boolean foi = false;
+                print("Veio aqui hô");
                 for (DataSnapshot d : snapshot.getChildren()) {
-                    if (d.getValue(Usuario.class).getLogin().equals(nomet) && d.getValue(Usuario.class).getSenha().equals(senhat)) {
+                    Usuario u = d.getValue(Usuario.class);
+                    print(u.getLogin());
+                   if (u.getLogin().equals(nomea) && u.getSenha().equals(senhaa)) {
+
+                        Resultado.login = nomea;
+                        Resultado.senha = senhaa;
+                        Escolhas.login = nomea;
+                        Escolhas.senha = senhaa;
+                        foi = true;
                         passarFoda();
+
                     }
                 }
-                print("Senha ou login errado, Seu gay");
+                if (!foi) {
+                     print("Senha ou login errado, Seu gay");
+                 }
             }
 
             @Override

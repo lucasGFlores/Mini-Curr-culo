@@ -31,6 +31,7 @@ public class lp3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lp3);
         getSupportActionBar().hide();
+        getSupportActionBar().hide();
         m9 = findViewById(R.id.magra_cheia9);
         m9v = findViewById(R.id.magro_vazia9);
         p9 = findViewById(R.id.palito_cheia9);
@@ -228,11 +229,12 @@ public class lp3 extends AppCompatActivity {
         advogado +=verificaq9();
         policial +=verificaq9();
         traficante += verificaq10();
-        programador += verificaq10();
-        bicheiro += verificaq10();
-        criador_de_galo_de_briga += verificaq10()+verificaq11();
+        programador += verificaq10()*2+verificaq12();
+        bicheiro += verificaq10()*4;
+        criador_de_galo_de_briga += (verificaq10()+verificaq11())*2;
         eletricista += verificaq12();
         mecanico += verificaq12();
+        engenheiro += verificaq12()*1.5;
     }
     public void passar(View v){
         if(checar()) {
@@ -250,6 +252,8 @@ public class lp3 extends AppCompatActivity {
             lp4.mecanico  = mecanico;
             lp4.medico = medico;
             somaLegal3();
+            Toast.makeText(this, "Medicina : "+medico+ "Programador : "+programador, Toast.LENGTH_SHORT).show();
+
             Intent i = new Intent(this, lp4.class);
             startActivity(i);
         }

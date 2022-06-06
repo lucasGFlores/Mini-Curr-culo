@@ -7,6 +7,26 @@
     android:background="@color/azulDorgaz"
     tools:context=".lp2">
 
+    <TextView
+        android:id="@+id/voltar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/indie_flower"
+        android:onClick="voltar"
+        android:text="Voltar"
+        android:textAlignment="center"
+        android:textColor="@color/blancoLegal"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obesa_cheia4"
+        app:layout_constraintVertical_bias="1.0" />
+
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="wrap_content"
@@ -37,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="90dp"
         android:onClick="mv8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/magra_vazia7"
@@ -377,5 +397,23 @@
         app:layout_constraintTop_toTopOf="@+id/palito_vazia6"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/magra_cheia" />
+
+    <TextView
+        android:id="@+id/proximos2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/indie_flower"
+        android:onClick="passarmassa"
+        android:text="Proxímo"
+        android:textColor="@color/blancoLegal"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

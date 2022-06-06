@@ -10,4 +10,7 @@
     <color name="azulDorgaz">#091337</color>
     <color name="blancoLegal">#FDFEFF</color>
     <color name="swqG">#070E2B</color>
+    <color name="azulclarin" />
+    <color name="azulmaisclarin">#5A88CC</color>
+    <color name="azulmasinormal">#5667C7</color>
 </resources>

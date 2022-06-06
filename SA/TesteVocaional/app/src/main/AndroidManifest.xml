@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TesteVocaional">
         <activity
+            android:name=".Layout"
+            android:exported="false" />
+        <activity
             android:name=".lp4"
             android:exported="false" />
         <activity
