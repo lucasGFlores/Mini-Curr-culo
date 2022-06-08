@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela_e_fundo"
+    tools:context=".projeto_Josue">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="649dp"
+        android:background="@color/blaco"
+        android:text="Qual variável calcular"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/rb_at"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azulzin"
+            android:text="Área total" />
+
+        <RadioButton
+            android:id="@+id/rb_ab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azulzin"
+            android:text="Área da Base" />
+
+        <RadioButton
+            android:id="@+id/rb_abv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azulzin"
+            android:text="Área da base (pelo volume)" />
+
+        <RadioButton
+            android:id="@+id/rb_nl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azulzin"
+            android:text="Numero de lados" />
+
+        <RadioButton
+            android:id="@+id/rb_af"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azulzin"
+            android:text="Área da face" />
+
+        <RadioButton
+            android:id="@+id/rb_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azulzin"
+            android:text="volume" />
+
+        <RadioButton
+            android:id="@+id/rb_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azulzin"
+            android:text="altura" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:onClick="prosseguir"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

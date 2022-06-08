@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_component_1.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\component_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cadastro.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_cadastro.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\font_indie_flower.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\font\\indie_flower.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_4.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\rectangle_4.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_enfermeiro.jpg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\enfermeiro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_palito_cheio.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\palito_cheio.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_pedreiro.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\pedreiro.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_traficante.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\traficante.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_medico.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\medico.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_retangulos.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\retangulos.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_image_1.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\image_1.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_obesa_cheia.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\obesa_cheia.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_image_5.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\image_5.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_gorda.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\gorda.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_layout.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_component_2.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\component_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_palito.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\palito.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_4__1_.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\rectangle_4__1_.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_group_2.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\group_2.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_bicheiro.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\bicheiro.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_magra_cheia.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\magra_cheia.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_lp3.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_lp3.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_advogado.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\advogado.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_magra_vazia.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\magra_vazia.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_eletricista.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\eletricista.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_4__2_.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\rectangle_4__2_.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_content_cadastro.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\content_cadastro.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_mecanico.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\mecanico.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_obesa.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\obesa.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_group_1.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\group_1.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_6.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\rectangle_6.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_lp1.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_lp1.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\navigation\\nav_graph2.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_pergunta_penis_2.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\pergunta_penis_2.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_lp4.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_lp4.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_imagens_de_profissionais_lombrados.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\imagens_de_profissionais_lombrados.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_image_6.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\image_6.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_escolhas.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_escolhas.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_engenheiro.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\engenheiro.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_line_8.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\line_8.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_programador.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\programador.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_gorda_cheia.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\gorda_cheia.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_lp2.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_lp2.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_historico.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_historico.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_pergunta_3.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\pergunta_3.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_pergunta5.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\pergunta5.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_veterinaria.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\veterinaria.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_policial.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\policial.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_resultado.xml.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_resultado.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_perguntas_1_foda.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\perguntas_1_foda.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_3.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\rectangle_3.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_criador.jpeg.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\criador.jpeg"
+    }
+]
