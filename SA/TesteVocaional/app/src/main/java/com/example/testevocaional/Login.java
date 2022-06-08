@@ -47,8 +47,11 @@ public class Login extends AppCompatActivity {
         Toast t = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG);
         t.show();
     }
+    public void baterDeTabela(View v){
+        verificadorFoda();
+    }
 
-    public void verificadorFoda(View v) {
+    public void verificadorFoda() {
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Usuario");
         ref.addValueEventListener(new ValueEventListener() {
             @Override
@@ -62,8 +65,8 @@ public class Login extends AppCompatActivity {
                     print(u.getLogin());
                    if (u.getLogin().equals(nomea) && u.getSenha().equals(senhaa)) {
 
-                        Resultado.login = nomea;
-                        Resultado.senha = senhaa;
+                        lp4.login = nomea;
+
                         Escolhas.login = nomea;
                         Escolhas.senha = senhaa;
                         foi = true;

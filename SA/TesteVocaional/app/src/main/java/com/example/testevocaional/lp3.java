@@ -229,9 +229,9 @@ public class lp3 extends AppCompatActivity {
         advogado +=verificaq9();
         policial +=verificaq9();
         traficante += verificaq10();
-        programador += verificaq10()*2+verificaq12();
+        programador += verificaq10()*2+verificaq12()*1.5;
         bicheiro += verificaq10()*4;
-        criador_de_galo_de_briga += (verificaq10()+verificaq11())*2;
+        criador_de_galo_de_briga += (verificaq10()*1.5+verificaq11())*2;
         eletricista += verificaq12();
         mecanico += verificaq12();
         engenheiro += verificaq12()*1.5;

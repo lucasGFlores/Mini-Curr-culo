@@ -229,7 +229,7 @@ public class lp2 extends AppCompatActivity {
     }
     public void somarFoda2(){
         veterinario += verificaq5()*2+verificaq7()*1.5;
-        medico +=verificaq6()+verificaq7();
+        medico +=verificaq6()+verificaq7()/2;
         enfermeiro +=verificaq6()+verificaq7();
         policial +=verificaq6()+verificaq7();
         advogado += verificaq7();

@@ -10,7 +10,14 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class lp4 extends AppCompatActivity {
+    static String login;
     static float engenheiro;
     static float eletricista;
     static float advogado;
@@ -26,6 +33,51 @@ public class lp4 extends AppCompatActivity {
     static float medico;
     ImageView m13,p13,g13,b13, m14,p14,g14,b14,m15,p15,g15,b15;
     ImageView mv13,pv13,gv13,bv13, mv14,pv14,gv14,bv14,mv15,pv15,gv15,bv15;
+
+
+    Profissao medicop = new Profissao("Médico", "diagnosticar,tratar e curar.\n" +
+            "médicos utilizam do bom senso, empatia e experiência para promover a saúde das pessoas ", medico, R.drawable.medico);
+
+    Profissao traficantep = new Profissao("Traficante", "bolar,vender e trocar tiro\n" +
+            "traficantes utilizam de sua lógica e capacidade de venda para lucrar com produtos ilícitos como loló", traficante, R.drawable.traficante);
+
+    Profissao galo_de_brigap = new Profissao("Criador de galo de briga", " cuidar,treinar e apostar\n" +
+            "Criadores de galo utilizam de seu conhecimento e experiência para treinar e promover evento de rinhas entre galos ", criador_de_galo_de_briga, R.drawable.traficante);
+
+    Profissao pedreirop = new Profissao("Pedreiro", "construir,planejar e executar\n" +
+            "pedreiros utilizam de seu conhecimento e lógica para executar a construção de edificios ", pedreiro, R.drawable.pedreiro);
+
+    Profissao engenheirop = new Profissao("Engenheiro", "Orçar,planejar, executar obras/criar sistemas e processos mais eficazes engenheiros utilizam da lógica, bom senso e pensamento analítico para solucionar desafios reais.", engenheiro, R.drawable.engenheiro);
+
+    Profissao eletricistap = new Profissao("Eletricista", " executar,criar e consertar sistemas elétricos.\n" +
+            "eletricistas usam da lógica para Executar planos de fiação elétrica para um bom funcionamento ", eletricista, R.drawable.eletricista);
+
+    Profissao advogadop = new Profissao("Advogado", " orientar,defender e desenvolver argumentos.\n" +
+            "advogados utilizam das suas capacidades sociais e conhecimentos sobre leis para defender os interesses de uma pessoa física ou jurídica", advogado, R.drawable.advogado);
+
+    Profissao bicheirop = new Profissao("Bicheiro", " cobrar, organizar e sortear\n" +
+            "bicheiros usam de suas capacidades sociais e lógicas para organizar e promover jogos de sorte vulgo jogo do bicho", bicheiro, R.drawable.bicheiro);
+
+    Profissao veterinariop = new Profissao("Veterinário", "diagnosticar,cuidar e tratar\n" +
+            "veterinário utilizam seu bom senso e empatia com animais para promover a saúde dos animais", veterinario, R.drawable.veterinaria);
+
+    Profissao enfermeirop = new Profissao("Enfermeiro", "monitorar,auxiliar e prestar assistência\n" +
+            "Enfermeiros utilizam de suas capacidades sociais e experiência para administrar medicamentos e auxiliar tratamentos médicos", enfermeiro, R.drawable.enfermeiro);
+
+    Profissao programadorp = new Profissao("Programador", "criar,planejar e executar sistemas de software/hardware\n" +
+            "programadores usam de sua lógica para desenvolver sistemas de software/hardware para facilitar a vida de todos", programador, R.drawable.programador);
+
+    Profissao policialp = new Profissao("Policial", "Desencorajar a criminalidade,investiga e  garante a segurança da população\n" +
+            "policiais usam de suas capacidades físicas e social para proteger a população de atos criminosos", policial, R.drawable.policial);
+
+    Profissao mecanicop = new Profissao("Mecânico", "criar, executar e reparar\n" +
+            "mecânicos usam da lógica e experiência para fazer manutenção,troca e criação de máquinas", mecanico, R.drawable.mecanico);
+
+
+    ArrayList<Float> roger = new ArrayList<>(); //valor das profissões
+    ArrayList<Profissao> profissao = new ArrayList<>();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -179,7 +231,7 @@ public class lp4 extends AppCompatActivity {
     }
     public void resultadoFoda(View v){
         if(checar()) {
-            Toast.makeText(this, "AQUI", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "AQUIiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
             Resultado.engenheiro = engenheiro;
             Resultado.eletricista = eletricista;
             Resultado.advogado = advogado;
@@ -194,8 +246,8 @@ public class lp4 extends AppCompatActivity {
             Resultado.mecanico  = mecanico;
             Resultado.medico = medico;
             somaLegal4();
-            Intent i = new Intent(this, Resultado.class);
-            startActivity(i);
+            TheSabidom();
+
         }else{
             Toast.makeText(this, "Responda tudo né porra", Toast.LENGTH_LONG).show();
         }
@@ -216,5 +268,65 @@ public class lp4 extends AppCompatActivity {
     public void voltar(View v){
         Intent i = new Intent(this,lp3.class);
         startActivity(i);
+    }
+    public void TheSabidom() {
+
+        roger.add(policial);
+        roger.add(mecanico);
+        //roger.add(medico);
+        roger.add(engenheiro);
+        roger.add(eletricista);
+        roger.add(advogado);
+        roger.add(bicheiro);
+        roger.add(criador_de_galo_de_briga);
+        roger.add(pedreiro);
+        roger.add(veterinario);
+        roger.add(enfermeiro);
+        roger.add(traficante);
+        roger.add(programador);
+
+
+        profissao.add(mecanicop);
+        // profissao.add(medicop);
+        profissao.add(engenheirop);
+        profissao.add(eletricistap);
+        profissao.add(advogadop);
+        profissao.add(bicheirop);
+        profissao.add(galo_de_brigap);
+        profissao.add(pedreirop);
+        profissao.add(veterinariop);
+        profissao.add(enfermeirop);
+        profissao.add(traficantep);
+        profissao.add(programadorp);
+        profissao.add(policialp);
+
+
+
+        roger.sort(Collections.reverseOrder());
+        for (Profissao i : profissao) {
+            if (i.getResultado() == roger.get(0)) {
+                Toast.makeText(this, "oieeeeeeeeeeeeeeee", Toast.LENGTH_SHORT).show();
+                masterResultado(login, i);
+                Resultado.i = i;
+                Intent i2 = new Intent(this, Resultado.class);
+                startActivity(i2);
+                break;
+            }
+        }
+
+
+
+    }
+    public void masterResultado(String login, Profissao i) {
+
+        //DatabaseReference refa = FirebaseDatabase.getInstance().getReference().child("Usuario");
+
+        DatabaseReference rootRef = FirebaseDatabase.getInstance().getReference("Usuario/"+login);
+
+        //u.getRes().add(i);
+        rootRef.child("trampo").child(i.nome).setValue(i);
+        // u.salvar_bd();
+
+
     }
 }

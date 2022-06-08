@@ -132,7 +132,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/indie_flower"
-        android:onClick="verificadorFoda"
+        android:onClick="baterDeTabela"
         android:text="Dale"
         android:textColor="@color/blancoLegal"
         android:textSize="48sp"
