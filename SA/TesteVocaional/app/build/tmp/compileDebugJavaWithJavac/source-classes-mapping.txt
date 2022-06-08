@@ -8,8 +8,9 @@ com/example/testevocaional/databinding/ActivityEscolhasBinding.java
  com.example.testevocaional.databinding.ActivityEscolhasBinding
 com/example/testevocaional/Layout.java
  com.example.testevocaional.Layout
-com/example/testevocaional/databinding/ActivityLp4Binding.java
- com.example.testevocaional.databinding.ActivityLp4Binding
+com/example/testevocaional/Login.java
+ com.example.testevocaional.Login
+ com.example.testevocaional.Login$1
 com/example/testevocaional/Adaptador.java
  com.example.testevocaional.Adaptador
  com.example.testevocaional.Adaptador$MyViewHolder
@@ -28,8 +29,10 @@ com/example/testevocaional/databinding/ActivityResultadoBinding.java
  com.example.testevocaional.databinding.ActivityResultadoBinding
 com/example/testevocaional/Resultado.java
  com.example.testevocaional.Resultado
-com/example/testevocaional/databinding/ActivityCadastroBinding.java
- com.example.testevocaional.databinding.ActivityCadastroBinding
+com/example/testevocaional/Cadastro.java
+ com.example.testevocaional.Cadastro
+ com.example.testevocaional.Cadastro$1
+ com.example.testevocaional.Cadastro$2
 com/example/testevocaional/databinding/ActivityLoginBinding.java
  com.example.testevocaional.databinding.ActivityLoginBinding
 com/example/testevocaional/databinding/ActivityHistoricoBinding.java
@@ -53,10 +56,7 @@ com/example/testevocaional/lp1.java
 com/example/testevocaional/Escolhas.java
  com.example.testevocaional.Escolhas
  com.example.testevocaional.Escolhas$1
-com/example/testevocaional/Login.java
- com.example.testevocaional.Login
- com.example.testevocaional.Login$1
-com/example/testevocaional/Cadastro.java
- com.example.testevocaional.Cadastro
- com.example.testevocaional.Cadastro$1
- com.example.testevocaional.Cadastro$2
+com/example/testevocaional/databinding/ActivityCadastroBinding.java
+ com.example.testevocaional.databinding.ActivityCadastroBinding
+com/example/testevocaional/databinding/ActivityLp4Binding.java
+ com.example.testevocaional.databinding.ActivityLp4Binding

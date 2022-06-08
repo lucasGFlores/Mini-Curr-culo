@@ -65,9 +65,10 @@ public class Cadastro extends AppCompatActivity {
                     if (!i) {
 
                         print("Usuário não existe :D");
-
+                        Random r = new Random();
+                        int ro = r.nextInt((500)+1);
                         Usuario u = new Usuario(tnome,tsenha);
-                        verificarId(u);
+                        u.setId(ro);
                         u.salvar_bd();
                         passarTela();
                     }
@@ -107,8 +108,6 @@ public class Cadastro extends AppCompatActivity {
                         int ident = new Random().nextInt((500)+1);;
                         integridade = false;
                     }
-
-
                 }
                 if(integridade){
                     i.setId(roll);
