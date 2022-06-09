@@ -71,6 +71,7 @@ public class Login extends AppCompatActivity {
                         lp4.senha = senhaa;
                         Escolhas.login = nomea;
                         Escolhas.senha = senhaa;
+                        historico.id = u.getId();
                         foi = true;
                         passarFoda();
 

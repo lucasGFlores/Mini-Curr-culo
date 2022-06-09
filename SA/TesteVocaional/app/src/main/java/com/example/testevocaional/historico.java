@@ -17,6 +17,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class historico extends AppCompatActivity {
+    public static int id;
     static ArrayList<Profissao> list;
     RecyclerView rv;
     Adaptador adaptador;
