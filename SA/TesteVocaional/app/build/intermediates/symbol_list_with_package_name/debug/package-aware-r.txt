@@ -2749,6 +2749,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id batata
 id beginOnFirstDraw
 id beginning
 id benegueço
@@ -3164,7 +3165,6 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id pofisson
 id position
 id postLayout
 id progress_circular

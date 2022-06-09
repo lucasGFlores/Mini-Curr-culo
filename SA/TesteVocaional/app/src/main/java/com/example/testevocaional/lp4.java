@@ -342,7 +342,7 @@ public class lp4 extends AppCompatActivity {
                     if(u.getLogin().equals(login) && u.getSenha().equals(senha)){
                         DatabaseReference rootRef = FirebaseDatabase.getInstance().getReference();
                         i.setId(u.getId());
-                        rootRef.child("trampo").child(i.nome).setValue(i);
+                        rootRef.child("Profissao").child(i.nome).setValue(i);
                     }
                 }
             }

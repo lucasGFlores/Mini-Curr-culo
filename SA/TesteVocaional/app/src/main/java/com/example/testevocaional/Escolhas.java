@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.Toast;
 
@@ -19,7 +20,7 @@ import java.util.Objects;
 
 public class Escolhas extends AppCompatActivity {
     static String login,senha;
-    static int id;
+    static int ido;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,25 +34,26 @@ public class Escolhas extends AppCompatActivity {
         Intent i = new Intent(this,lp1.class);
         startActivity(i);
     }
-    public void pegarArray(int ido){
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("trampo");
+    public void pegarArray(int id){
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Profissao");
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                boolean foi = false;
-                ArrayList<Profissao> list = new ArrayList<>();
-                for(DataSnapshot d : snapshot.getChildren()){
-                    Profissao t = d.getValue(Profissao.class);
-                    if(t.getId() == ido ){
-                        list.add(t);
-                        foi = true;
-                    }
+                ArrayList<Profissao> toper = new ArrayList<>();
+                for(DataSnapshot d : snapshot.getChildren()) {
+                    Profissao p = d.getValue(Profissao.class);
+                    int reg = p.getId();
+                            if(reg == id){
+                                toper.add(p);
+                            }
                 }
-                if(foi) {
-                    historico.list = list;
+                if(toper.isEmpty()){
+                print("Não fez lee teste");
+                }
+                if(!toper.isEmpty()){
+
+                    historico.list = toper;
                     passarParaHistorico();
-                }else if (!foi){
-                    print("algo de certo está errado!!!");
                 }
             }
 
@@ -60,10 +62,9 @@ public class Escolhas extends AppCompatActivity {
 
             }
         });
-
     }
     public void historicoLegal(View view){
-        pegarArray(id);
+        pegarArray(ido);
     }
     public void passarParaHistorico(){
         Intent i = new Intent(this,historico.class);

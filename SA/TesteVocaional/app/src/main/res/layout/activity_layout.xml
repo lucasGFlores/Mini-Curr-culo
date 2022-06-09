@@ -29,7 +29,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
-                android:id="@+id/pofisson"
+                android:id="@+id/batata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="60dp"
@@ -68,7 +68,7 @@
                 android:layout_width="115dp"
                 android:layout_height="101dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/pofisson"
+                app:layout_constraintEnd_toStartOf="@+id/batata"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:srcCompat="@tools:sample/avatars" />

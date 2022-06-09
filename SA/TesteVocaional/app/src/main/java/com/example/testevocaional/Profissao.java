@@ -12,6 +12,9 @@ public class Profissao {
         this.foto = foto;
     }
 
+    public Profissao() {
+    }
+
     public int getId() {
         return id;
     }

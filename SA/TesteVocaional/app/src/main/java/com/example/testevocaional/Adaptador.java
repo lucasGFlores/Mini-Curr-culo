@@ -14,8 +14,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Adaptador extends RecyclerView.Adapter<Adaptador.MyViewHolder> {
-    SimpleDateFormat formataData = new SimpleDateFormat("dd-MM-yyyy");
-    Date data = new Date();
+    //SimpleDateFormat formataData = new SimpleDateFormat("dd-MM-yyyy");
+    //Date data = new Date();
     Context context;
 
     Adaptador.OnItemClickListener listener;
@@ -23,7 +23,6 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.MyViewHolder> {
 
     public Adaptador(Context context, ArrayList<Profissao> list,OnItemClickListener listener) {
         this.context = context;
-
         this.listener = listener;
         this.list = list;
     }
@@ -38,9 +37,12 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.MyViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         Profissao profissao = list.get(position);
-        holder.nome.setText(profissao.getNome());
-        holder.data.setText(formataData.format(data));
-        listener.onItemClick(profissao);
+        holder.nome.setText(profissao.nome);
+        //holder.data.setText(formataData.format(data));
+        holder.itemView.setOnClickListener(view ->{
+            listener.onItemClick(profissao);
+        });
+
     }
 
     @Override
@@ -56,8 +58,8 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.MyViewHolder> {
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            data = itemView.findViewById(R.id.data);
-            nome = itemView.findViewById(R.id.nomesin);
+         //,   data = itemView.findViewById(R.id.data);;
+            nome = itemView.findViewById(R.id.batata);
 
         }
     }

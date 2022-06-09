@@ -21,6 +21,9 @@ public final class ActivityLayoutBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView batata;
+
+  @NonNull
   public final TextView data;
 
   @NonNull
@@ -29,16 +32,13 @@ public final class ActivityLayoutBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView18;
 
-  @NonNull
-  public final TextView pofisson;
-
-  private ActivityLayoutBinding(@NonNull ConstraintLayout rootView, @NonNull TextView data,
-      @NonNull ImageView imageView, @NonNull ImageView imageView18, @NonNull TextView pofisson) {
+  private ActivityLayoutBinding(@NonNull ConstraintLayout rootView, @NonNull TextView batata,
+      @NonNull TextView data, @NonNull ImageView imageView, @NonNull ImageView imageView18) {
     this.rootView = rootView;
+    this.batata = batata;
     this.data = data;
     this.imageView = imageView;
     this.imageView18 = imageView18;
-    this.pofisson = pofisson;
   }
 
   @Override
@@ -68,6 +68,12 @@ public final class ActivityLayoutBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.batata;
+      TextView batata = ViewBindings.findChildViewById(rootView, id);
+      if (batata == null) {
+        break missingId;
+      }
+
       id = R.id.data;
       TextView data = ViewBindings.findChildViewById(rootView, id);
       if (data == null) {
@@ -86,14 +92,8 @@ public final class ActivityLayoutBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.pofisson;
-      TextView pofisson = ViewBindings.findChildViewById(rootView, id);
-      if (pofisson == null) {
-        break missingId;
-      }
-
-      return new ActivityLayoutBinding((ConstraintLayout) rootView, data, imageView, imageView18,
-          pofisson);
+      return new ActivityLayoutBinding((ConstraintLayout) rootView, batata, data, imageView,
+          imageView18);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -61,17 +61,18 @@ public class Login extends AppCompatActivity {
                 String nomea = nome.getText().toString();
                 String senhaa = senha.getText().toString();
                 boolean foi = false;
-                print("Veio aqui hô");
+
                 for (DataSnapshot d : snapshot.getChildren()) {
                     Usuario u = d.getValue(Usuario.class);
-                    print(u.getLogin());
+                    print(""+u.getId());
                    if (u.getLogin().equals(nomea) && u.getSenha().equals(senhaa)) {
 
                         lp4.login = nomea;
                         lp4.senha = senhaa;
                         Escolhas.login = nomea;
                         Escolhas.senha = senhaa;
-                        historico.id = u.getId();
+                       Escolhas.ido = u.getId();
+
                         foi = true;
                         passarFoda();
 
