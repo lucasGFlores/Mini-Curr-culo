@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class Escolhas extends AppCompatActivity {
+    ArrayList<Profissao> toper = new ArrayList<>();
     static String login,senha;
     static int ido;
     @Override
@@ -34,25 +35,26 @@ public class Escolhas extends AppCompatActivity {
         Intent i = new Intent(this,lp1.class);
         startActivity(i);
     }
-    public void pegarArray(int id){
+    public void pegarArray(){
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Profissao");
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                ArrayList<Profissao> toper = new ArrayList<>();
+
                 for(DataSnapshot d : snapshot.getChildren()) {
                     Profissao p = d.getValue(Profissao.class);
-                    int reg = p.getId();
-                            if(reg == id){
+
+                           // if(p.getId() == ido){
                                 toper.add(p);
-                            }
+                           // }
                 }
                 if(toper.isEmpty()){
                 print("Não fez lee teste");
                 }
                 if(!toper.isEmpty()){
 
-                    historico.list = toper;
+                    historico.roberto= toper;
+                    print(toper.get(1) +"");
                     passarParaHistorico();
                 }
             }
@@ -64,11 +66,10 @@ public class Escolhas extends AppCompatActivity {
         });
     }
     public void historicoLegal(View view){
-        pegarArray(ido);
+        pegarArray();
     }
     public void passarParaHistorico(){
         Intent i = new Intent(this,historico.class);
-
         startActivity(i);
     }
 }

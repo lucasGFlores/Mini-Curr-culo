@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.firebase.database.DataSnapshot;
@@ -18,19 +19,21 @@ import java.util.ArrayList;
 
 public class historico extends AppCompatActivity {
 
-    static ArrayList<Profissao> list;
+    static ArrayList<Profissao> roberto;
     RecyclerView rv;
     Adaptador adaptador;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        for(Profissao p : roberto){
+            print(""+p.getNome());
+        }
         setContentView(R.layout.activity_historico);
         getSupportActionBar().hide();
         rv = findViewById(R.id.lista);
         rv.setHasFixedSize(true);
         rv.setLayoutManager(new LinearLayoutManager(this));
-        adaptador = new Adaptador(this, list, new Adaptador.OnItemClickListener() {
+        adaptador = new Adaptador(this, roberto, new Adaptador.OnItemClickListener() {
             @Override
             public void onItemClick(Profissao profissao) {
 
@@ -38,5 +41,9 @@ public class historico extends AppCompatActivity {
         });
         rv.setAdapter(adaptador);
         adaptador.notifyDataSetChanged();
+    }
+    public void print(String msg) {
+        Toast t = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG);
+        t.show();
     }
 }

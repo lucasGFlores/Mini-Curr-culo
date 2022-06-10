@@ -41,9 +41,9 @@ public class Resultado extends AppCompatActivity {
 
 
     public void voltarEscolha(View v) {
-        //Intent i = new Intent(this, Escolhas.class);
+        Intent i = new Intent(this, Escolhas.class);
         //i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        //startActivity(i);
+        startActivity(i);
     }
 
     public void refazer(View v) {
