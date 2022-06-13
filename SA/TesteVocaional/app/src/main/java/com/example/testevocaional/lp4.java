@@ -89,7 +89,6 @@ public class lp4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
-        getSupportActionBar().hide();
         setContentView(R.layout.activity_lp4);
         m13 = findViewById(R.id.magro_cheia13);
         p13 = findViewById(R.id.palito_cheia13);
@@ -248,10 +247,10 @@ public class lp4 extends AppCompatActivity {
 
     public void resultadoFoda(View v) {
         if (checar()) {
+            somaLegal4();
             TheSabidom();
             Toast.makeText(this, "AQUIiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
 
-            somaLegal4();
 
 
         } else {
@@ -297,7 +296,7 @@ public class lp4 extends AppCompatActivity {
 
 
         profissao.add(mecanicop);
-        // profissao.add(medicop);
+       //  profissao.add(medicop);
         profissao.add(engenheirop);
         profissao.add(eletricistap);
         profissao.add(advogadop);

@@ -52,9 +52,13 @@ public class Cadastro extends AppCompatActivity {
             ref.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    Random r = new Random();
+                    int ro = r.nextInt((500)+1);
                     boolean i = false;
                     for (DataSnapshot d : snapshot.getChildren()) {
-
+                        if(d.getValue(Usuario.class).getId() == ro){
+                            ro = r.nextInt((500)+1);
+                        }
 
                         if (d.getValue(Usuario.class).getLogin().equals(tnome) && d.getValue(Usuario.class).getSenha().equals(tsenha)) {
                             i = true;
@@ -65,8 +69,7 @@ public class Cadastro extends AppCompatActivity {
                     if (!i) {
 
                         print("Usuário não existe :D");
-                        Random r = new Random();
-                        int ro = r.nextInt((500)+1);
+
                         Usuario u = new Usuario(tnome,tsenha);
                         u.setId(ro);
                         u.salvar_bd();

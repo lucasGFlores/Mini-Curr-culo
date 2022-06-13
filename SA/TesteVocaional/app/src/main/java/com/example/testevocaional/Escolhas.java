@@ -26,6 +26,7 @@ public class Escolhas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_escolhas);
+        getSupportActionBar().hide();
     }
     public void print(String msg) {
         Toast t = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG);
@@ -44,17 +45,16 @@ public class Escolhas extends AppCompatActivity {
                 for(DataSnapshot d : snapshot.getChildren()) {
                     Profissao p = d.getValue(Profissao.class);
 
-                           // if(p.getId() == ido){
+                            if(p.getId() == ido){
                                 toper.add(p);
-                           // }
+                            }
                 }
                 if(toper.isEmpty()){
-                print("Não fez lee teste");
+                print("Não fez le teste");
                 }
                 if(!toper.isEmpty()){
 
                     historico.roberto= toper;
-                    print(toper.get(1) +"");
                     passarParaHistorico();
                 }
             }

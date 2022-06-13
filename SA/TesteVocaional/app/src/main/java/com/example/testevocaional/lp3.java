@@ -31,7 +31,6 @@ public class lp3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lp3);
         getSupportActionBar().hide();
-        getSupportActionBar().hide();
         m9 = findViewById(R.id.magra_cheia9);
         m9v = findViewById(R.id.magro_vazia9);
         p9 = findViewById(R.id.palito_cheia9);
@@ -245,12 +244,12 @@ public class lp3 extends AppCompatActivity {
             lp4.criador_de_galo_de_briga = criador_de_galo_de_briga;
             lp4.pedreiro = pedreiro;
             lp4.veterinario = veterinario;
-            lp4.enfermeiro = enfermeiro;
+            lp4.enfermeiro = enfermeiro/3;
             lp4.traficante = traficante;
             lp4.programador = programador;
             lp4.policial = policial;
             lp4.mecanico  = mecanico;
-            lp4.medico = medico;
+            lp4.medico = medico/3;
             somaLegal3();
             Toast.makeText(this, "Medicina : "+medico+ "Programador : "+programador, Toast.LENGTH_SHORT).show();
 

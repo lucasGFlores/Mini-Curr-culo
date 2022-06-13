@@ -237,7 +237,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/magra_vazia5"
         app:layout_constraintStart_toEndOf="@+id/magra_vazia5"
         app:layout_constraintTop_toTopOf="@+id/magra_vazia5"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.49"
         app:srcCompat="@drawable/palito" />
 
     <ImageView

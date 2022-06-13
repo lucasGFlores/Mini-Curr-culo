@@ -68,7 +68,7 @@
         app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="@+id/benegueço"
         app:layout_constraintTop_toTopOf="@+id/benegueço"
-        app:layout_constraintVertical_bias="0.908"
+        app:layout_constraintVertical_bias="0.90999997"
         app:srcCompat="@drawable/magra_vazia" />
 
     <ImageView

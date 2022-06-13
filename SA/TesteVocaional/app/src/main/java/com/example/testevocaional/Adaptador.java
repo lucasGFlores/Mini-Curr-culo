@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -30,7 +31,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.MyViewHolder> {
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(context).inflate( R.layout.activity_layout,parent,false );
+        View v = LayoutInflater.from(context).inflate( R.layout.layout,parent,false );
         return new Adaptador.MyViewHolder(v);
     }
 
@@ -38,6 +39,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.MyViewHolder> {
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         Profissao profissao = list.get(position);
         holder.nome.setText(profissao.nome);
+        holder.imagem.setImageResource(profissao.foto);
         //holder.data.setText(formataData.format(data));
         holder.itemView.setOnClickListener(view ->{
             listener.onItemClick(profissao);
@@ -55,12 +57,12 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.MyViewHolder> {
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView nome,data;
-
+        ImageView imagem;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
          //,   data = itemView.findViewById(R.id.data);;
             nome = itemView.findViewById(R.id.batata);
-
+            imagem = itemView.findViewById(R.id.imagemCard);
         }
     }
 }

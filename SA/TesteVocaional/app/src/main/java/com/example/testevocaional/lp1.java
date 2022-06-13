@@ -196,7 +196,7 @@ public class lp1 extends AppCompatActivity {
                      lp2.mecanico  = mecanico;
                      lp2.medico = medico;
                      Intent i = new Intent(this,lp2.class);
-                     i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    // i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                      startActivity(i);
 
                  }

@@ -28,9 +28,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.TesteVocaional" >
         <activity
-            android:name="com.example.testevocaional.Layout"
-            android:exported="false" />
-        <activity
             android:name="com.example.testevocaional.lp4"
             android:exported="false" />
         <activity

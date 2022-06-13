@@ -353,7 +353,7 @@
         android:id="@+id/obesa_vazia3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="96dp"
+        android:layout_marginEnd="118dp"
         android:onClick="b3"
         app:layout_constraintBottom_toBottomOf="@+id/gorda_vazia3"
         app:layout_constraintEnd_toEndOf="parent"
