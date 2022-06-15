@@ -24,12 +24,12 @@
         "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\rectangle_4.png"
     },
     {
-        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_palito_cheio.png.flat",
-        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\palito_cheio.png"
-    },
-    {
         "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_enfermeiro.jpg.flat",
         "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\enfermeiro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_palito_cheio.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\palito_cheio.png"
     },
     {
         "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\traficante.jpeg"
     },
     {
-        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_retangulos.png.flat",
-        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\retangulos.png"
-    },
-    {
         "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_medico.jpeg.flat",
         "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\medico.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_retangulos.png.flat",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\retangulos.png"
     },
     {
         "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_image_1.png.flat",

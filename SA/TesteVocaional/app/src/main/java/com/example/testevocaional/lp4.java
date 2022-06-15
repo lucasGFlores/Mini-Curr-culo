@@ -42,45 +42,6 @@ public class lp4 extends AppCompatActivity {
     ImageView mv13, pv13, gv13, bv13, mv14, pv14, gv14, bv14, mv15, pv15, gv15, bv15;
 
 
-    Profissao medicop = new Profissao("Médico", "diagnosticar,tratar e curar.\n" +
-            "médicos utilizam do bom senso, empatia e experiência para promover a saúde das pessoas ", medico, R.drawable.medico);
-
-    Profissao traficantep = new Profissao("Traficante", "bolar,vender e trocar tiro\n" +
-            "traficantes utilizam de sua lógica e capacidade de venda para lucrar com produtos ilícitos como loló", traficante, R.drawable.traficante);
-
-    Profissao galo_de_brigap = new Profissao("Criador de galo de briga", " cuidar,treinar e apostar\n" +
-            "Criadores de galo utilizam de seu conhecimento e experiência para treinar e promover evento de rinhas entre galos ", criador_de_galo_de_briga, R.drawable.traficante);
-
-    Profissao pedreirop = new Profissao("Pedreiro", "construir,planejar e executar\n" +
-            "pedreiros utilizam de seu conhecimento e lógica para executar a construção de edificios ", pedreiro, R.drawable.pedreiro);
-
-    Profissao engenheirop = new Profissao("Engenheiro", "Orçar,planejar, executar obras/criar sistemas e processos mais eficazes engenheiros utilizam da lógica, bom senso e pensamento analítico para solucionar desafios reais.", engenheiro, R.drawable.engenheiro);
-
-    Profissao eletricistap = new Profissao("Eletricista", " executar,criar e consertar sistemas elétricos.\n" +
-            "eletricistas usam da lógica para Executar planos de fiação elétrica para um bom funcionamento ", eletricista, R.drawable.eletricista);
-
-    Profissao advogadop = new Profissao("Advogado", " orientar,defender e desenvolver argumentos.\n" +
-            "advogados utilizam das suas capacidades sociais e conhecimentos sobre leis para defender os interesses de uma pessoa física ou jurídica", advogado, R.drawable.advogado);
-
-    Profissao bicheirop = new Profissao("Bicheiro", " cobrar, organizar e sortear\n" +
-            "bicheiros usam de suas capacidades sociais e lógicas para organizar e promover jogos de sorte vulgo jogo do bicho", bicheiro, R.drawable.bicheiro);
-
-    Profissao veterinariop = new Profissao("Veterinário", "diagnosticar,cuidar e tratar\n" +
-            "veterinário utilizam seu bom senso e empatia com animais para promover a saúde dos animais", veterinario, R.drawable.veterinaria);
-
-    Profissao enfermeirop = new Profissao("Enfermeiro", "monitorar,auxiliar e prestar assistência\n" +
-            "Enfermeiros utilizam de suas capacidades sociais e experiência para administrar medicamentos e auxiliar tratamentos médicos", enfermeiro, R.drawable.enfermeiro);
-
-    Profissao programadorp = new Profissao("Programador", "criar,planejar e executar sistemas de software/hardware\n" +
-            "programadores usam de sua lógica para desenvolver sistemas de software/hardware para facilitar a vida de todos", programador, R.drawable.programador);
-
-    Profissao policialp = new Profissao("Policial", "Desencorajar a criminalidade,investiga e  garante a segurança da população\n" +
-            "policiais usam de suas capacidades físicas e social para proteger a população de atos criminosos", policial, R.drawable.policial);
-
-    Profissao mecanicop = new Profissao("Mecânico", "criar, executar e reparar\n" +
-            "mecânicos usam da lógica e experiência para fazer manutenção,troca e criação de máquinas", mecanico, R.drawable.mecanico);
-
-
     ArrayList<Integer> roger = new ArrayList<>(); //valor das profissões
     ArrayList<Profissao> profissao = new ArrayList<>();
 
@@ -249,9 +210,6 @@ public class lp4 extends AppCompatActivity {
         if (checar()) {
             somaLegal4();
             TheSabidom();
-            Toast.makeText(this, "AQUIiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
-
-
 
         } else {
             Toast.makeText(this, "Responda tudo né porra", Toast.LENGTH_LONG).show();
@@ -263,7 +221,7 @@ public class lp4 extends AppCompatActivity {
         if (m13.getVisibility() == View.VISIBLE || p13.getVisibility() == View.VISIBLE || g13.getVisibility() == View.VISIBLE || b13.getVisibility() == View.VISIBLE) {
             if (m14.getVisibility() == View.VISIBLE || p14.getVisibility() == View.VISIBLE || g14.getVisibility() == View.VISIBLE || b14.getVisibility() == View.VISIBLE) {
                 if (m15.getVisibility() == View.VISIBLE || p15.getVisibility() == View.VISIBLE || g15.getVisibility() == View.VISIBLE || b15.getVisibility() == View.VISIBLE) {
-
+                    Toast.makeText(this, "certin", Toast.LENGTH_LONG).show();
                     i = true;
                 }
             }
@@ -279,6 +237,46 @@ public class lp4 extends AppCompatActivity {
     }
 
     public void TheSabidom() {
+
+        Profissao medicop = new Profissao("Médico", "diagnosticar,tratar e curar.\n" +
+                "médicos utilizam do bom senso, empatia e experiência para promover a saúde das pessoas ", medico, R.drawable.medico);
+
+        Profissao traficantep = new Profissao("Traficante", "bolar,vender e trocar tiro\n" +
+                "traficantes utilizam de sua lógica e capacidade de venda para lucrar com produtos ilícitos como loló", traficante, R.drawable.traficante);
+
+        Profissao galo_de_brigap = new Profissao("Criador de galo de briga", " cuidar,treinar e apostar\n" +
+                "Criadores de galo utilizam de seu conhecimento e experiência para treinar e promover evento de rinhas entre galos ", criador_de_galo_de_briga, R.drawable.traficante);
+
+        Profissao pedreirop = new Profissao("Pedreiro", "construir,planejar e executar\n" +
+                "pedreiros utilizam de seu conhecimento e lógica para executar a construção de edificios ", pedreiro, R.drawable.pedreiro);
+
+        Profissao engenheirop = new Profissao("Engenheiro", "Orçar,planejar, executar obras/criar sistemas e processos mais eficazes engenheiros utilizam da lógica, bom senso e pensamento analítico para solucionar desafios reais.", engenheiro, R.drawable.engenheiro);
+
+        Profissao eletricistap = new Profissao("Eletricista", " executar,criar e consertar sistemas elétricos.\n" +
+                "eletricistas usam da lógica para Executar planos de fiação elétrica para um bom funcionamento ", eletricista, R.drawable.eletricista);
+
+        Profissao advogadop = new Profissao("Advogado", " orientar,defender e desenvolver argumentos.\n" +
+                "advogados utilizam das suas capacidades sociais e conhecimentos sobre leis para defender os interesses de uma pessoa física ou jurídica", advogado, R.drawable.advogado);
+
+        Profissao bicheirop = new Profissao("Bicheiro", " cobrar, organizar e sortear\n" +
+                "bicheiros usam de suas capacidades sociais e lógicas para organizar e promover jogos de sorte vulgo jogo do bicho", bicheiro, R.drawable.bicheiro);
+
+        Profissao veterinariop = new Profissao("Veterinário", "diagnosticar,cuidar e tratar\n" +
+                "veterinário utilizam seu bom senso e empatia com animais para promover a saúde dos animais", veterinario, R.drawable.veterinaria);
+
+        Profissao enfermeirop = new Profissao("Enfermeiro", "monitorar,auxiliar e prestar assistência\n" +
+                "Enfermeiros utilizam de suas capacidades sociais e experiência para administrar medicamentos e auxiliar tratamentos médicos", enfermeiro, R.drawable.enfermeiro);
+
+        Profissao programadorp = new Profissao("Programador", "criar,planejar e executar sistemas de software/hardware\n" +
+                "programadores usam de sua lógica para desenvolver sistemas de software/hardware para facilitar a vida de todos", programador, R.drawable.programador);
+
+        Profissao policialp = new Profissao("Policial", "Desencorajar a criminalidade,investiga e  garante a segurança da população\n" +
+                "policiais usam de suas capacidades físicas e social para proteger a população de atos criminosos", policial, R.drawable.policial);
+
+        Profissao mecanicop = new Profissao("Mecânico", "criar, executar e reparar\n" +
+                "mecânicos usam da lógica e experiência para fazer manutenção,troca e criação de máquinas", mecanico, R.drawable.mecanico);
+
+
 
         roger.add(policial);
         roger.add(mecanico);
@@ -308,15 +306,12 @@ public class lp4 extends AppCompatActivity {
         profissao.add(traficantep);
         profissao.add(programadorp);
         profissao.add(policialp);
-
-
         roger.sort(Collections.reverseOrder());
-        for (Profissao i : profissao) {
-            if (i.getResultado() == roger.get(0)) {
-                masterResultado(login, i);
-                Toast.makeText(this, "oieeeeeeeeeeeeeeee", Toast.LENGTH_SHORT).show();
-                break;
+        for(Profissao i : profissao){
+            Toast.makeText(this, roger.get(0)+"", Toast.LENGTH_LONG).show();
 
+            if (i.getResultado() == roger.get(0)) {
+                masterResultado(login,i);
             }
         }
 
