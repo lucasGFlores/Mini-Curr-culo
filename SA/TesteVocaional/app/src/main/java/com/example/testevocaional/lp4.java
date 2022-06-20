@@ -210,6 +210,9 @@ public class lp4 extends AppCompatActivity {
         if (checar()) {
             somaLegal4();
             TheSabidom();
+            Toast.makeText(this, "AQUIiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
+
+
 
         } else {
             Toast.makeText(this, "Responda tudo né porra", Toast.LENGTH_LONG).show();
@@ -221,7 +224,7 @@ public class lp4 extends AppCompatActivity {
         if (m13.getVisibility() == View.VISIBLE || p13.getVisibility() == View.VISIBLE || g13.getVisibility() == View.VISIBLE || b13.getVisibility() == View.VISIBLE) {
             if (m14.getVisibility() == View.VISIBLE || p14.getVisibility() == View.VISIBLE || g14.getVisibility() == View.VISIBLE || b14.getVisibility() == View.VISIBLE) {
                 if (m15.getVisibility() == View.VISIBLE || p15.getVisibility() == View.VISIBLE || g15.getVisibility() == View.VISIBLE || b15.getVisibility() == View.VISIBLE) {
-                    Toast.makeText(this, "certin", Toast.LENGTH_LONG).show();
+
                     i = true;
                 }
             }
@@ -271,16 +274,15 @@ public class lp4 extends AppCompatActivity {
                 "programadores usam de sua lógica para desenvolver sistemas de software/hardware para facilitar a vida de todos", programador, R.drawable.programador);
 
         Profissao policialp = new Profissao("Policial", "Desencorajar a criminalidade,investiga e  garante a segurança da população\n" +
-                "policiais usam de suas capacidades físicas e social para proteger a população de atos criminosos", policial, R.drawable.policial);
+                "policiais usam de suas capacidades físicas e social para proteger a população de atos criminosos", policial/2, R.drawable.policial);
 
         Profissao mecanicop = new Profissao("Mecânico", "criar, executar e reparar\n" +
                 "mecânicos usam da lógica e experiência para fazer manutenção,troca e criação de máquinas", mecanico, R.drawable.mecanico);
 
 
-
-        roger.add(policial);
+        roger.add(policial/2);
         roger.add(mecanico);
-        //roger.add(medico);
+        roger.add(medico);
         roger.add(engenheiro);
         roger.add(eletricista);
         roger.add(advogado);
@@ -294,7 +296,7 @@ public class lp4 extends AppCompatActivity {
 
 
         profissao.add(mecanicop);
-       //  profissao.add(medicop);
+        profissao.add(medicop);
         profissao.add(engenheirop);
         profissao.add(eletricistap);
         profissao.add(advogadop);
@@ -306,12 +308,17 @@ public class lp4 extends AppCompatActivity {
         profissao.add(traficantep);
         profissao.add(programadorp);
         profissao.add(policialp);
+
+
         roger.sort(Collections.reverseOrder());
-        for(Profissao i : profissao){
-            Toast.makeText(this, roger.get(0)+"", Toast.LENGTH_LONG).show();
+        for (Profissao i : profissao) {
 
             if (i.getResultado() == roger.get(0)) {
-                masterResultado(login,i);
+                //Toast.makeText(this, "ifei", Toast.LENGTH_SHORT).show();
+                masterResultado(login, i);
+                Toast.makeText(this, "oieeeeeeeeeeeeeeee", Toast.LENGTH_SHORT).show();
+                break;
+
             }
         }
 

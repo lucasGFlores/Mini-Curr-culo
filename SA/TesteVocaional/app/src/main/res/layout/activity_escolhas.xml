@@ -88,6 +88,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/indie_flower"
+        android:onClick="xampson"
         android:text="xampsom"
         android:textColor="@color/blancoLegal"
         android:textSize="48sp"

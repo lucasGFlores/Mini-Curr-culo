@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TesteVocaional">
         <activity
+            android:name=".Finale"
+            android:exported="false" />
+        <activity
+            android:name=".Thetrueescolha"
+            android:exported="false" />
+        <activity
             android:name=".lp4"
             android:exported="false" />
         <activity

@@ -4,8 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.Toast;
 
@@ -16,17 +16,26 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Escolhas extends AppCompatActivity {
+    MediaPlayer mp;
     ArrayList<Profissao> toper = new ArrayList<>();
     static String login,senha;
     static int ido;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_escolhas);
         getSupportActionBar().hide();
+        mp = MediaPlayer.create(this, R.raw.pizzaria_club_penguim);
+        mp.start();
+    }
+    public void xampson(View v){
+       mp.stop();
+        Intent i = new Intent(this, Thetrueescolha.class);
+        startActivity(i);
     }
     public void print(String msg) {
         Toast t = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG);

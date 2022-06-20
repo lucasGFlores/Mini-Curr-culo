@@ -10,7 +10,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Resultado extends AppCompatActivity {
-
     static Profissao i;
     ImageView image;
 
@@ -19,6 +18,7 @@ public class Resultado extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_resultado);
         nome = findViewById(R.id.nomesin);
         descricao = findViewById(R.id.descricao);

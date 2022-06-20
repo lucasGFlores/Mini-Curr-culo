@@ -29,6 +29,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         nome = findViewById(R.id.nome);
         senha = findViewById(R.id.passwd);
+        getSupportActionBar().hide();
 
     }
 
