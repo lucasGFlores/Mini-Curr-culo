@@ -1,6 +1,7 @@
 package com.example.testevocaional;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -10,6 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Resultado extends AppCompatActivity {
+    static MediaPlayer mp;
     static Profissao i;
     ImageView image;
 
@@ -44,6 +46,7 @@ public class Resultado extends AppCompatActivity {
         Intent i = new Intent(this, Escolhas.class);
         //i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
+        mp.stop();
     }
 
     public void refazer(View v) {

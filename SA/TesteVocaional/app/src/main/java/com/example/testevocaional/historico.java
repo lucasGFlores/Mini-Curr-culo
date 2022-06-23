@@ -25,11 +25,14 @@ public class historico extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
+        int i =0;
         for(Profissao p : roberto){
-            print(""+p.getNome());
+            i++;
+                    print(""+i);
         }
         setContentView(R.layout.activity_historico);
-        getSupportActionBar().hide();
+
         rv = findViewById(R.id.lista);
         rv.setHasFixedSize(true);
         rv.setLayoutManager(new LinearLayoutManager(this));

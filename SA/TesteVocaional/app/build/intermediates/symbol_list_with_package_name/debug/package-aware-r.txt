@@ -2558,6 +2558,7 @@ drawable design_snackbar_background
 drawable eletricista
 drawable enfermeiro
 drawable engenheiro
+drawable gato_makonha
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gorda
@@ -2578,6 +2579,7 @@ drawable ic_mtrl_chip_close_circle
 drawable image_1
 drawable image_5
 drawable image_6
+drawable image_8
 drawable imagens_de_profissionais_lombrados
 drawable line_8
 drawable m3_appbar_background
@@ -2932,6 +2934,8 @@ id imageView14
 id imageView15
 id imageView16
 id imageView17
+id imageView18
+id imageView19
 id imageView2
 id imageView23
 id imageView24
@@ -3273,12 +3277,17 @@ id textTop
 id textView
 id textView10
 id textView11
+id textView12
 id textView13
 id textView14
 id textView15
 id textView16
 id textView17
+id textView18
+id textView19
 id textView2
+id textView20
+id textView21
 id textView3
 id textView4
 id textView5
@@ -3431,6 +3440,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_cadastro
 layout activity_escolhas
+layout activity_finale
 layout activity_historico
 layout activity_login
 layout activity_lp1
@@ -3439,6 +3449,7 @@ layout activity_lp3
 layout activity_lp4
 layout activity_main
 layout activity_resultado
+layout activity_thetrueescolha
 layout content_cadastro
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3538,7 +3549,12 @@ mipmap ic_launcher_round
 navigation nav_graph
 navigation nav_graph2
 plurals mtrl_badge_content_description
+raw joaoestrela
 raw keep
+raw pizzaria_club_penguim
+raw standproound
+raw standproundfoda
+raw stondproundo
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3599,7 +3615,6 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string firebase_database_url
 string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key

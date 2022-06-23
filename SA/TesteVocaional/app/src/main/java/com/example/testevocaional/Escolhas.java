@@ -31,6 +31,7 @@ public class Escolhas extends AppCompatActivity {
         getSupportActionBar().hide();
         mp = MediaPlayer.create(this, R.raw.pizzaria_club_penguim);
         mp.start();
+        Resultado.mp = mp;
     }
     public void xampson(View v){
        mp.stop();
@@ -74,9 +75,7 @@ public class Escolhas extends AppCompatActivity {
             }
         });
     }
-    public void historicoLegal(View view){
-        pegarArray();
-    }
+    public void historicoLegal(View view){ mp.stop();pegarArray(); }
     public void passarParaHistorico(){
         Intent i = new Intent(this,historico.class);
         startActivity(i);

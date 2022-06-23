@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.TesteVocaional" >
         <activity
+            android:name="com.example.testevocaional.Finale"
+            android:exported="false" />
+        <activity
+            android:name="com.example.testevocaional.Thetrueescolha"
+            android:exported="false" />
+        <activity
             android:name="com.example.testevocaional.lp4"
             android:exported="false" />
         <activity

@@ -20,6 +20,10 @@
         "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_cadastro.xml"
     },
     {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_thetrueescolha.xml",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_thetrueescolha.xml"
+    },
+    {
         "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
         "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
@@ -46,5 +50,9 @@
     {
         "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout.xml",
         "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_finale.xml",
+        "source": "C:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_finale.xml"
     }
 ]
