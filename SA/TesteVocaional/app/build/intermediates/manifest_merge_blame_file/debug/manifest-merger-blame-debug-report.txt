@@ -6,258 +6,257 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml
+8-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml
+9-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml
 10
 11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:25:5-79
-13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:25:22-76
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:26:5-67
-14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:26:22-64
 15    <uses-permission android:name="android.permission.WAKE_LOCK" />
-15-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:24:5-68
-15-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:24:22-65
+15-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:24:22-65
 16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
-16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
+16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
 17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-17-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:5-110
-17-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
+17-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
 18
 19    <application
-19-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:5:5-58:19
+19-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:5:5-58:19
 20        android:allowBackup="true"
-20-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:6:9-35
+20-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:6:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.7.0] C:\Users\Pichau\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.7.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:7:9-43
+24-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:7:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:8:9-41
+25-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:8:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:9:9-54
+26-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:9:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:10:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.TesteVocaional" >
-29-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:11:9-52
-30        <activity
-30-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:12:9-14:40
-31            android:name="com.example.testevocaional.Finale"
-31-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:13:13-35
-32            android:exported="false" />
-32-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:14:13-37
-33        <activity
-33-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:15:9-17:40
-34            android:name="com.example.testevocaional.Thetrueescolha"
-34-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:16:13-43
-35            android:exported="false" />
-35-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:17:13-37
-36        <activity
-36-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:18:9-20:40
-37            android:name="com.example.testevocaional.lp4"
-37-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:19:13-32
-38            android:exported="false" />
-38-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:20:13-37
-39        <activity
-39-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:21:9-23:40
-40            android:name="com.example.testevocaional.lp3"
-40-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:22:13-32
-41            android:exported="false" />
-41-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:23:13-37
-42        <activity
-42-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:24:9-26:40
-43            android:name="com.example.testevocaional.lp2"
-43-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:25:13-32
-44            android:exported="false" />
-44-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:26:13-37
-45        <activity
-45-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:27:9-29:40
-46            android:name="com.example.testevocaional.lp1"
-46-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:28:13-32
-47            android:exported="false" />
-47-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:29:13-37
-48        <activity
-48-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:30:9-32:40
-49            android:name="com.example.testevocaional.Cadastro"
-49-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:31:13-37
-50            android:exported="false" />
-50-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:32:13-37
-51        <activity
-51-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:33:9-35:40
-52            android:name="com.example.testevocaional.historico"
-52-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:34:13-38
-53            android:exported="false" />
-53-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:35:13-37
-54        <activity
-54-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:36:9-38:40
-55            android:name="com.example.testevocaional.Login"
-55-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:37:13-34
-56            android:exported="false" />
-56-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:38:13-37
-57        <activity
-57-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:39:9-41:40
-58            android:name="com.example.testevocaional.Escolhas"
-58-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:40:13-37
-59            android:exported="false" />
-59-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:41:13-37
-60        <activity
-60-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:42:9-44:40
-61            android:name="com.example.testevocaional.Resultado"
-61-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:43:13-38
-62            android:exported="false" />
-62-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:44:13-37
-63        <activity
-63-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:45:9-53:20
-64            android:name="com.example.testevocaional.MainActivity"
-64-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:46:13-41
-65            android:exported="true" >
-65-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:47:13-36
-66            <intent-filter>
-66-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:48:13-52:29
-67                <action android:name="android.intent.action.MAIN" />
-67-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:49:17-69
-67-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:49:25-66
-68
-69                <category android:name="android.intent.category.LAUNCHER" />
-69-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:51:17-77
-69-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:51:27-74
-70            </intent-filter>
-71        </activity>
-72
-73        <meta-data
-73-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:55:9-57:57
-74            android:name="preloaded_fonts"
-74-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:56:13-43
-75            android:resource="@array/preloaded_fonts" />
-75-->C:\Users\Pichau\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:57:13-54
-76
-77        <service
-77-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
-78            android:name="com.google.firebase.components.ComponentDiscoveryService"
-78-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
-79            android:directBootAware="true"
-79-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Pichau\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
-80            android:exported="false" >
-80-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
-81            <meta-data
-81-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
-82                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-82-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Pichau\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
-84            <meta-data
-84-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
-85                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-85-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
-86                android:value="com.google.firebase.components.ComponentRegistrar" />
-86-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
-87            <meta-data
-87-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Pichau\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-88                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-88-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Pichau\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Pichau\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-90        </service>
-91
-92        <provider
-92-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Pichau\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
-93            android:name="com.google.firebase.provider.FirebaseInitProvider"
-93-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Pichau\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
-94            android:authorities="com.example.testevocaional.firebaseinitprovider"
-94-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Pichau\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
-95            android:directBootAware="true"
-95-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Pichau\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
-96            android:exported="false"
-96-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Pichau\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
-97            android:initOrder="100" />
-97-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Pichau\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
-98
-99        <activity
-99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Pichau\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Pichau\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-101            android:exported="false"
-101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Pichau\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-102-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Pichau\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-103
-104        <receiver
-104-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
-105            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-105-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
-106            android:enabled="true"
-106-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
-107            android:exported="false" >
-107-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
-108        </receiver>
-109
-110        <service
-110-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
-111            android:name="com.google.android.gms.measurement.AppMeasurementService"
-111-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
-112            android:enabled="true"
-112-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
-113            android:exported="false" />
-113-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
-114        <service
-114-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
-115            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-115-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
-116            android:enabled="true"
-116-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
-117            android:exported="false"
-117-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
-118            android:permission="android.permission.BIND_JOB_SERVICE" />
-118-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
-119
-120        <meta-data
-120-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-121            android:name="com.google.android.gms.version"
-121-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-122            android:value="@integer/google_play_services_version" />
-122-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-123
-124        <provider
-124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-125            android:name="androidx.startup.InitializationProvider"
-125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-126            android:authorities="com.example.testevocaional.androidx-startup"
-126-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-127            android:exported="false" >
-127-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-128            <meta-data
-128-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-129                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-129-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-130                android:value="androidx.startup" />
-130-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-131            <meta-data
-131-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Pichau\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-132                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-132-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Pichau\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-133                android:value="androidx.startup" />
-133-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Pichau\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-134        </provider>
-135
-136        <uses-library
-136-->[androidx.window:window:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-137            android:name="androidx.window.extensions"
-137-->[androidx.window:window:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-138            android:required="false" />
-138-->[androidx.window:window:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-139        <uses-library
-139-->[androidx.window:window:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-140            android:name="androidx.window.sidecar"
-140-->[androidx.window:window:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-141            android:required="false" />
-141-->[androidx.window:window:1.0.0] C:\Users\Pichau\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-142    </application>
-143
-144</manifest>
+27-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:10:9-35
+28        android:theme="@style/Theme.TesteVocaional" >
+28-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:11:9-52
+29        <activity
+29-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:12:9-14:40
+30            android:name="com.example.testevocaional.Finale"
+30-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:13:13-35
+31            android:exported="false" />
+31-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:14:13-37
+32        <activity
+32-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:15:9-17:40
+33            android:name="com.example.testevocaional.Thetrueescolha"
+33-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:16:13-43
+34            android:exported="false" />
+34-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:17:13-37
+35        <activity
+35-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:18:9-20:40
+36            android:name="com.example.testevocaional.lp4"
+36-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:19:13-32
+37            android:exported="false" />
+37-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:20:13-37
+38        <activity
+38-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:21:9-23:40
+39            android:name="com.example.testevocaional.lp3"
+39-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:22:13-32
+40            android:exported="false" />
+40-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:23:13-37
+41        <activity
+41-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:24:9-26:40
+42            android:name="com.example.testevocaional.lp2"
+42-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:25:13-32
+43            android:exported="false" />
+43-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:26:13-37
+44        <activity
+44-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:27:9-29:40
+45            android:name="com.example.testevocaional.lp1"
+45-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:28:13-32
+46            android:exported="false" />
+46-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:29:13-37
+47        <activity
+47-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:30:9-32:40
+48            android:name="com.example.testevocaional.Cadastro"
+48-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:31:13-37
+49            android:exported="false" />
+49-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:32:13-37
+50        <activity
+50-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:33:9-35:40
+51            android:name="com.example.testevocaional.historico"
+51-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:34:13-38
+52            android:exported="false" />
+52-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:35:13-37
+53        <activity
+53-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:36:9-38:40
+54            android:name="com.example.testevocaional.Login"
+54-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:37:13-34
+55            android:exported="false" />
+55-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:38:13-37
+56        <activity
+56-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:39:9-41:40
+57            android:name="com.example.testevocaional.Escolhas"
+57-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:40:13-37
+58            android:exported="false" />
+58-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:41:13-37
+59        <activity
+59-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:42:9-44:40
+60            android:name="com.example.testevocaional.Resultado"
+60-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:43:13-38
+61            android:exported="false" />
+61-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:44:13-37
+62        <activity
+62-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:45:9-53:20
+63            android:name="com.example.testevocaional.MainActivity"
+63-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:46:13-41
+64            android:exported="true" >
+64-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:47:13-36
+65            <intent-filter>
+65-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:48:13-52:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:49:17-69
+66-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:49:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:51:17-77
+68-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:51:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <meta-data
+72-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:55:9-57:57
+73            android:name="preloaded_fonts"
+73-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:56:13-43
+74            android:resource="@array/preloaded_fonts" />
+74-->C:\Users\lucas_g_flores\Desktop\Mini-Curriculo\SA\TesteVocaional\app\src\main\AndroidManifest.xml:57:13-54
+75
+76        <service
+76-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+77            android:name="com.google.firebase.components.ComponentDiscoveryService"
+77-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+78            android:directBootAware="true"
+78-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+79            android:exported="false" >
+79-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+80            <meta-data
+80-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+81                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+81-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-database:20.0.5] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+83            <meta-data
+83-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+84                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+84-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+87                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+87-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+89        </service>
+90
+91        <provider
+91-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+92            android:name="com.google.firebase.provider.FirebaseInitProvider"
+92-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+93            android:authorities="com.example.testevocaional.firebaseinitprovider"
+93-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+95            android:exported="false"
+95-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+96            android:initOrder="100" />
+96-->[com.google.firebase:firebase-common:20.1.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+97
+98        <activity
+98-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+102
+103        <receiver
+103-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+104            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+104-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+106            android:exported="false" >
+106-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+107        </receiver>
+108
+109        <service
+109-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+110            android:name="com.google.android.gms.measurement.AppMeasurementService"
+110-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+111            android:enabled="true"
+111-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+112            android:exported="false" />
+112-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+113        <service
+113-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+114            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+114-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+117            android:permission="android.permission.BIND_JOB_SERVICE" />
+117-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+122
+123        <provider
+123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+124            android:name="androidx.startup.InitializationProvider"
+124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+125            android:authorities="com.example.testevocaional.androidx-startup"
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+126            android:exported="false" >
+126-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+127            <meta-data
+127-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+128                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+128-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+129                android:value="androidx.startup" />
+129-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+130            <meta-data
+130-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+131                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+131-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+132                android:value="androidx.startup" />
+132-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+133        </provider>
+134
+135        <uses-library
+135-->[androidx.window:window:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+136            android:name="androidx.window.extensions"
+136-->[androidx.window:window:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+137            android:required="false" />
+137-->[androidx.window:window:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+138        <uses-library
+138-->[androidx.window:window:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+139            android:name="androidx.window.sidecar"
+139-->[androidx.window:window:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+140            android:required="false" />
+140-->[androidx.window:window:1.0.0] C:\Users\lucas_g_flores\.gradle\caches\transforms-3\26c75e3223007fb58bb5f268648adc7c\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+141    </application>
+142
+143</manifest>
