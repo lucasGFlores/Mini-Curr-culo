@@ -1,14 +1,14 @@
-#Thu Jun 23 07:49:28 BRT 2022
+#Wed Jun 29 19:54:29 BRT 2022
 path.4=classes2.dex
 path.3=12/classes.dex
 path.2=11/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.3=C\:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.2=C\:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.1=C\:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\lucas_g_flores\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=C\:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.3=C\:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.2=C\:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.1=C\:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

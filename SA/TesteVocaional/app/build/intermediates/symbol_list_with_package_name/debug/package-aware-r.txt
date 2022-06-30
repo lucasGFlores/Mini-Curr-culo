@@ -3549,6 +3549,7 @@ mipmap ic_launcher_round
 navigation nav_graph
 navigation nav_graph2
 plurals mtrl_badge_content_description
+raw elevadorkira
 raw joaoestrela
 raw keep
 raw pizzaria_club_penguim

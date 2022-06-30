@@ -28,6 +28,7 @@ public class Escolhas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_escolhas);
+
         getSupportActionBar().hide();
         mp = MediaPlayer.create(this, R.raw.pizzaria_club_penguim);
         mp.start();

@@ -52,17 +52,17 @@ com/example/testevocaional/databinding/ActivityLp2Binding.java
 com/example/testevocaional/lp4.java
  com.example.testevocaional.lp4
  com.example.testevocaional.lp4$1
-com/example/testevocaional/Thetrueescolha.java
- com.example.testevocaional.Thetrueescolha
-com/example/testevocaional/lp1.java
- com.example.testevocaional.lp1
-com/example/testevocaional/databinding/ActivityLp4Binding.java
- com.example.testevocaional.databinding.ActivityLp4Binding
-com/example/testevocaional/databinding/ActivityCadastroBinding.java
- com.example.testevocaional.databinding.ActivityCadastroBinding
 com/example/testevocaional/historico.java
  com.example.testevocaional.historico
  com.example.testevocaional.historico$1
+com/example/testevocaional/lp1.java
+ com.example.testevocaional.lp1
 com/example/testevocaional/Escolhas.java
  com.example.testevocaional.Escolhas
  com.example.testevocaional.Escolhas$1
+com/example/testevocaional/databinding/ActivityCadastroBinding.java
+ com.example.testevocaional.databinding.ActivityCadastroBinding
+com/example/testevocaional/databinding/ActivityLp4Binding.java
+ com.example.testevocaional.databinding.ActivityLp4Binding
+com/example/testevocaional/Thetrueescolha.java
+ com.example.testevocaional.Thetrueescolha

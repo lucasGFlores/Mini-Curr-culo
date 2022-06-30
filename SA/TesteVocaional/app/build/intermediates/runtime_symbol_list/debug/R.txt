@@ -3548,6 +3548,7 @@ int mipmap ic_launcher_round 0x7f0f0001
 int navigation nav_graph 0x7f100000
 int navigation nav_graph2 0x7f100001
 int plurals mtrl_badge_content_description 0x7f110000
+int raw elevadorkira 0x7f120006
 int raw joaoestrela 0x7f120000
 int raw keep 0x7f120001
 int raw pizzaria_club_penguim 0x7f120002

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -18,12 +19,14 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class historico extends AppCompatActivity {
-
+    MediaPlayer mp;
     static ArrayList<Profissao> roberto;
     RecyclerView rv;
     Adaptador adaptador;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        mp = MediaPlayer.create(this,R.raw.elevadorkira);
+        mp.start();
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         int i =0;
