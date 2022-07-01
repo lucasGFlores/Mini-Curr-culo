@@ -64,10 +64,12 @@ public class Escolhas extends AppCompatActivity {
                             }
                 }
                 if(toper.isEmpty()){
-               // print("Não fez le teste");
+                print("Não fez le teste");
                 }
                 if(!toper.isEmpty()){
-
+                    mp.stop();
+                    mpk.start();
+                    historico.mpkh = mpk;
                     historico.roberto= toper;
                     passarParaHistorico();
                 }
@@ -80,9 +82,7 @@ public class Escolhas extends AppCompatActivity {
         });
     }
     public void historicoLegal(View view){
-        mp.stop();
-        mpk.start();
-        historico.mpkh = mpk;
+
         pegarArray();
          }
     public void passarParaHistorico(){

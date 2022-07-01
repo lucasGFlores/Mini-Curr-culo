@@ -100,7 +100,7 @@ public class lp1 extends AppCompatActivity {
         // bolinha pequena da primeira pergunta
         inviq1();
         m1.setVisibility(VISIBLE);
-        Toast.makeText(this,"roberto",Toast.LENGTH_LONG).show();
+        //Toast.makeText(this,"roberto",Toast.LENGTH_LONG).show();
         //+2 em medicina por exemplo
     }
     public void p1(View v) {

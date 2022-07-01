@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_escolhas.xml",
-        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_escolhas.xml"
-    },
-    {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout.xml",
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_escolhas.xml",
+        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_escolhas.xml"
     },
     {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_thetrueescolha.xml",
