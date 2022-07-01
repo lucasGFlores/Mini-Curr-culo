@@ -62,7 +62,7 @@ public class Cadastro extends AppCompatActivity {
 
                         if (d.getValue(Usuario.class).getLogin().equals(tnome) && d.getValue(Usuario.class).getSenha().equals(tsenha)) {
                             i = true;
-                         //   print("o usuário " + u.getLogin() + "existe");
+                           print("o usuário " + tnome + "existe");
                             break;
                         }
                     }
