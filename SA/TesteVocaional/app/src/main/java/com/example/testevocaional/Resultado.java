@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Resultado extends AppCompatActivity {
-    static MediaPlayer mp;
+   static MediaPlayer mp;
     static Profissao i;
     ImageView image;
 

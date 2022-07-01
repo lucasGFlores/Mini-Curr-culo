@@ -24,10 +24,6 @@
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\engenheiro.jpeg"
     },
     {
-        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\raw_elevadorkira.mp3.flat",
-        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\raw\\elevadorkira.mp3"
-    },
-    {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -92,6 +88,10 @@
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\rectangle_3.png"
     },
     {
+        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\raw_elevadorkirathemefoda.mp3.flat",
+        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\raw\\elevadorkirathemefoda.mp3"
+    },
+    {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\layout_layout.xml.flat",
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\layout\\layout.xml"
     },
@@ -124,16 +124,16 @@
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\medico.jpeg"
     },
     {
+        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_setinha.xml.flat",
+        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\setinha.xml"
+    },
+    {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_pedreiro.jpeg.flat",
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\pedreiro.jpeg"
     },
     {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_retangulos.png.flat",
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\retangulos.png"
-    },
-    {
-        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\raw_standproound.mp3.flat",
-        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\raw\\standproound.mp3"
     },
     {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_perguntas_1_foda.png.flat",
@@ -188,8 +188,8 @@
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\navigation\\nav_graph2.xml"
     },
     {
-        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\raw_stondproundo.mp3.flat",
-        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\raw\\stondproundo.mp3"
+        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_24.xml"
     },
     {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_traficante.jpeg.flat",
@@ -298,6 +298,10 @@
     {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\raw_joaoestrela.mp3.flat",
         "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\raw\\joaoestrela.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\raw_jonatinho.mp3.flat",
+        "source": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\src\\main\\res\\raw\\jonatinho.mp3"
     },
     {
         "merged": "C:\\Users\\Pichau\\Desktop\\Mini-Curriculo\\SA\\TesteVocaional\\app\\build\\intermediates\\merged_res\\debug\\drawable_enfermeiro.jpg.flat",

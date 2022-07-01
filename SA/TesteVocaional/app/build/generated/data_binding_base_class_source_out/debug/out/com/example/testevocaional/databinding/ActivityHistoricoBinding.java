@@ -24,6 +24,9 @@ public final class ActivityHistoricoBinding implements ViewBinding {
   public final ConstraintLayout colo;
 
   @NonNull
+  public final ImageView imageView20;
+
+  @NonNull
   public final ImageView imageView23;
 
   @NonNull
@@ -33,10 +36,11 @@ public final class ActivityHistoricoBinding implements ViewBinding {
   public final RecyclerView lista;
 
   private ActivityHistoricoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout colo, @NonNull ImageView imageView23,
-      @NonNull ImageView imageView24, @NonNull RecyclerView lista) {
+      @NonNull ConstraintLayout colo, @NonNull ImageView imageView20,
+      @NonNull ImageView imageView23, @NonNull ImageView imageView24, @NonNull RecyclerView lista) {
     this.rootView = rootView;
     this.colo = colo;
+    this.imageView20 = imageView20;
     this.imageView23 = imageView23;
     this.imageView24 = imageView24;
     this.lista = lista;
@@ -71,6 +75,12 @@ public final class ActivityHistoricoBinding implements ViewBinding {
     missingId: {
       ConstraintLayout colo = (ConstraintLayout) rootView;
 
+      id = R.id.imageView20;
+      ImageView imageView20 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView20 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView23;
       ImageView imageView23 = ViewBindings.findChildViewById(rootView, id);
       if (imageView23 == null) {
@@ -89,8 +99,8 @@ public final class ActivityHistoricoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHistoricoBinding((ConstraintLayout) rootView, colo, imageView23,
-          imageView24, lista);
+      return new ActivityHistoricoBinding((ConstraintLayout) rootView, colo, imageView20,
+          imageView23, imageView24, lista);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -16,7 +16,7 @@ public class Finale extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finale);
         getSupportActionBar().hide();
-        mp = MediaPlayer.create(this,R.raw.joaoestrela);
+        mp = MediaPlayer.create(this,R.raw.jonatinho);
         mp.start();
     }
     public void voltar(View v){

@@ -4,7 +4,6 @@ package com.example.testevocaional.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -21,9 +20,6 @@ import java.lang.String;
 public final class ActivityCadastroBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final Button button;
 
   @NonNull
   public final ImageView imageView12;
@@ -44,20 +40,23 @@ public final class ActivityCadastroBinding implements ViewBinding {
   public final EditText novaSenha2;
 
   @NonNull
+  public final TextView textView14;
+
+  @NonNull
   public final TextView textView5;
 
-  private ActivityCadastroBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
+  private ActivityCadastroBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView12, @NonNull ImageView imageView13,
       @NonNull ImageView imageView14, @NonNull EditText nomeNovo, @NonNull EditText novaSenha,
-      @NonNull EditText novaSenha2, @NonNull TextView textView5) {
+      @NonNull EditText novaSenha2, @NonNull TextView textView14, @NonNull TextView textView5) {
     this.rootView = rootView;
-    this.button = button;
     this.imageView12 = imageView12;
     this.imageView13 = imageView13;
     this.imageView14 = imageView14;
     this.nomeNovo = nomeNovo;
     this.novaSenha = novaSenha;
     this.novaSenha2 = novaSenha2;
+    this.textView14 = textView14;
     this.textView5 = textView5;
   }
 
@@ -88,12 +87,6 @@ public final class ActivityCadastroBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
-        break missingId;
-      }
-
       id = R.id.imageView12;
       ImageView imageView12 = ViewBindings.findChildViewById(rootView, id);
       if (imageView12 == null) {
@@ -130,14 +123,20 @@ public final class ActivityCadastroBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView14;
+      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
+      if (textView14 == null) {
+        break missingId;
+      }
+
       id = R.id.textView5;
       TextView textView5 = ViewBindings.findChildViewById(rootView, id);
       if (textView5 == null) {
         break missingId;
       }
 
-      return new ActivityCadastroBinding((ConstraintLayout) rootView, button, imageView12,
-          imageView13, imageView14, nomeNovo, novaSenha, novaSenha2, textView5);
+      return new ActivityCadastroBinding((ConstraintLayout) rootView, imageView12, imageView13,
+          imageView14, nomeNovo, novaSenha, novaSenha2, textView14, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

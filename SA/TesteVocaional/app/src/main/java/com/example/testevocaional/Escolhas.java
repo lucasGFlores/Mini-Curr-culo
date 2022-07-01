@@ -19,6 +19,7 @@ import java.util.ArrayList;
 
 public class Escolhas extends AppCompatActivity {
     MediaPlayer mp;
+    MediaPlayer mpk;
     ArrayList<Profissao> toper = new ArrayList<>();
     static String login,senha;
     static int ido;
@@ -30,9 +31,10 @@ public class Escolhas extends AppCompatActivity {
         setContentView(R.layout.activity_escolhas);
 
         getSupportActionBar().hide();
+        mpk = MediaPlayer.create(this,R.raw.elevadorkirathemefoda);
         mp = MediaPlayer.create(this, R.raw.pizzaria_club_penguim);
         mp.start();
-        Resultado.mp = mp;
+
     }
     public void xampson(View v){
        mp.stop();
@@ -44,6 +46,7 @@ public class Escolhas extends AppCompatActivity {
         t.show();
     }
     public void passarParaTeste(View v){
+        Resultado.mp = mp;
         Intent i = new Intent(this,lp1.class);
         startActivity(i);
     }
@@ -76,7 +79,12 @@ public class Escolhas extends AppCompatActivity {
             }
         });
     }
-    public void historicoLegal(View view){ mp.stop();pegarArray(); }
+    public void historicoLegal(View view){
+        mp.stop();
+        mpk.start();
+        historico.mpkh = mpk;
+        pegarArray();
+         }
     public void passarParaHistorico(){
         Intent i = new Intent(this,historico.class);
         startActivity(i);

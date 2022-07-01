@@ -27,9 +27,6 @@ public final class ActivityEscolhasBinding implements ViewBinding {
   public final ImageView imageView8;
 
   @NonNull
-  public final TextView textView14;
-
-  @NonNull
   public final TextView textView15;
 
   @NonNull
@@ -39,12 +36,11 @@ public final class ActivityEscolhasBinding implements ViewBinding {
   public final TextView textView17;
 
   private ActivityEscolhasBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView7,
-      @NonNull ImageView imageView8, @NonNull TextView textView14, @NonNull TextView textView15,
-      @NonNull TextView textView16, @NonNull TextView textView17) {
+      @NonNull ImageView imageView8, @NonNull TextView textView15, @NonNull TextView textView16,
+      @NonNull TextView textView17) {
     this.rootView = rootView;
     this.imageView7 = imageView7;
     this.imageView8 = imageView8;
-    this.textView14 = textView14;
     this.textView15 = textView15;
     this.textView16 = textView16;
     this.textView17 = textView17;
@@ -89,12 +85,6 @@ public final class ActivityEscolhasBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView14;
-      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
-      if (textView14 == null) {
-        break missingId;
-      }
-
       id = R.id.textView15;
       TextView textView15 = ViewBindings.findChildViewById(rootView, id);
       if (textView15 == null) {
@@ -114,7 +104,7 @@ public final class ActivityEscolhasBinding implements ViewBinding {
       }
 
       return new ActivityEscolhasBinding((ConstraintLayout) rootView, imageView7, imageView8,
-          textView14, textView15, textView16, textView17);
+          textView15, textView16, textView17);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
