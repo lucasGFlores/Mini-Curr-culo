@@ -244,7 +244,7 @@ public class lp3 extends AppCompatActivity {
             lp4.criador_de_galo_de_briga = criador_de_galo_de_briga;
             lp4.pedreiro = pedreiro;
             lp4.veterinario = veterinario;
-            lp4.enfermeiro = enfermeiro/3;
+            lp4.enfermeiro = enfermeiro/2;
             lp4.traficante = traficante;
             lp4.programador = programador;
             lp4.policial = policial;

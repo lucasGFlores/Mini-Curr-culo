@@ -274,7 +274,7 @@ public class lp1 extends AppCompatActivity {
         medico +=verificaq2()+verificaq4();
         enfermeiro +=verificaq2()+verificaq3()+verificaq4();
         policial +=verificaq2()+verificaq3();
-        pedreiro +=verificaq3()*2;
+        pedreiro +=verificaq3()*1.2;
         eletricista+= verificaq4();
         mecanico +=verificaq4()*2;
     }

@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Resultado extends AppCompatActivity {
+    static boolean passando;
    static MediaPlayer mp;
     static Profissao i;
     ImageView image;
@@ -22,6 +23,7 @@ public class Resultado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_resultado);
+
         nome = findViewById(R.id.nomesin);
         descricao = findViewById(R.id.descricao);
         image = findViewById(R.id.imagem);
@@ -47,6 +49,8 @@ public class Resultado extends AppCompatActivity {
         //i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
         mp.stop();
+        passando = false;
+        historico.passando = passando;
     }
 
     public void refazer(View v) {

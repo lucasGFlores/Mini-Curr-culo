@@ -23,6 +23,9 @@ import java.util.Collections;
 import kotlinx.coroutines.channels.ProduceKt;
 
 public class lp4 extends AppCompatActivity {
+    boolean passando = true;
+
+
     static String login;
     static String senha;
     static int engenheiro;
@@ -50,6 +53,8 @@ public class lp4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
+        Resultado.passando = passando;
+        historico.passando = passando;
         setContentView(R.layout.activity_lp4);
         m13 = findViewById(R.id.magro_cheia13);
         p13 = findViewById(R.id.palito_cheia13);

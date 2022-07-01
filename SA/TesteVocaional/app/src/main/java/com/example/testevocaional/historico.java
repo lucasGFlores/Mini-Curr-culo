@@ -21,12 +21,16 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class historico extends AppCompatActivity {
+    static boolean passando;
     static MediaPlayer mpkh;
     static ArrayList<Profissao> roberto;
     RecyclerView rv;
     Adaptador adaptador;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if(passando){
+            retornarParaOResultado();
+        }
 
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
@@ -58,5 +62,9 @@ public class historico extends AppCompatActivity {
         Intent i = new Intent(this, Escolhas.class);
         startActivity(i);
 
+    }
+    public void retornarParaOResultado(){
+      Intent i = new Intent(this,Resultado.class);
+      startActivity(i);
     }
 }
