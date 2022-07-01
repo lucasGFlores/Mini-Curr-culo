@@ -64,7 +64,7 @@ public class Escolhas extends AppCompatActivity {
                             }
                 }
                 if(toper.isEmpty()){
-                print("Não fez le teste");
+               // print("Não fez le teste");
                 }
                 if(!toper.isEmpty()){
 

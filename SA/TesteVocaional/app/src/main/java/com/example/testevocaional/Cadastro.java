@@ -62,17 +62,18 @@ public class Cadastro extends AppCompatActivity {
 
                         if (d.getValue(Usuario.class).getLogin().equals(tnome) && d.getValue(Usuario.class).getSenha().equals(tsenha)) {
                             i = true;
-                            print("o usuário " + u.getLogin() + "existe");
+                         //   print("o usuário " + u.getLogin() + "existe");
                             break;
                         }
                     }
                     if (!i) {
 
-                        print("Usuário não existe :D");
+                      //  print("Usuário não existe :D");
 
                         Usuario u = new Usuario(tnome,tsenha);
                         u.setId(ro);
                         u.salvar_bd();
+                        print("Cadastrado com sucesso "+u.getLogin());
                         passarTela();
                     }
                     nome.setText("");
@@ -83,7 +84,8 @@ public class Cadastro extends AppCompatActivity {
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError error) {
-                    print("Failed to read value.");
+                   //
+                    // print("Failed to read value.");
                 }
             });
         }
@@ -103,7 +105,7 @@ public class Cadastro extends AppCompatActivity {
 
                 int roll = new Random().nextInt((500)+1);
                 String g = "Valor dessa porra de Id é " +roll;
-                print(g);
+               // print(g);
                 boolean integridade = true;
                 for(DataSnapshot d : snapshot.getChildren()){
                     Usuario u = d.getValue(Usuario.class);

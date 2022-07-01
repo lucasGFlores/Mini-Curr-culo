@@ -210,7 +210,7 @@ public class lp4 extends AppCompatActivity {
         if (checar()) {
             somaLegal4();
             TheSabidom();
-            Toast.makeText(this, "AQUIiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
+           // Toast.makeText(this, "AQUIiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
 
 
 
@@ -316,7 +316,7 @@ public class lp4 extends AppCompatActivity {
             if (i.getResultado() == roger.get(0)) {
                 //Toast.makeText(this, "ifei", Toast.LENGTH_SHORT).show();
                 masterResultado(login, i);
-                Toast.makeText(this, "oieeeeeeeeeeeeeeee", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(this, "oieeeeeeeeeeeeeeee", Toast.LENGTH_SHORT).show();
                 break;
 
             }
@@ -329,7 +329,7 @@ public class lp4 extends AppCompatActivity {
 
         Resultado.i = i;
        pegarUserInfo(i);
-        Toast.makeText(this, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", Toast.LENGTH_SHORT).show();
         Intent i2 = new Intent(this, Resultado.class);
         startActivity(i2);
     }

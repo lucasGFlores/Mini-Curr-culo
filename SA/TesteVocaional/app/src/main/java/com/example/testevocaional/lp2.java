@@ -234,8 +234,8 @@ public class lp2 extends AppCompatActivity {
         policial +=verificaq6()+verificaq7();
         advogado += verificaq7();
         eletricista +=verificaq8();
-        pedreiro+=verificaq8()*1.5;
-        Toast.makeText(this, "Medicina : "+medico + "Programador : "+programador, Toast.LENGTH_SHORT).show();
+        pedreiro+=verificaq8()*1.3;
+      //  Toast.makeText(this, "Medicina : "+medico + "Programador : "+programador, Toast.LENGTH_SHORT).show();
 
 
     }

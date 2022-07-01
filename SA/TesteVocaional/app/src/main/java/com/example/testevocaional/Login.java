@@ -65,7 +65,7 @@ public class Login extends AppCompatActivity {
 
                 for (DataSnapshot d : snapshot.getChildren()) {
                     Usuario u = d.getValue(Usuario.class);
-                    print(""+u.getId());
+                    //print(""+u.getId());
                    if (u.getLogin().equals(nomea) && u.getSenha().equals(senhaa)) {
 
                         lp4.login = nomea;

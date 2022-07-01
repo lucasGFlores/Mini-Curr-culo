@@ -251,7 +251,7 @@ public class lp3 extends AppCompatActivity {
             lp4.mecanico  = mecanico;
             lp4.medico = medico/3;
             somaLegal3();
-            Toast.makeText(this, "Medicina : "+medico+ "Programador : "+programador, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Medicina : "+medico+ "Programador : "+programador, Toast.LENGTH_SHORT).show();
 
             Intent i = new Intent(this, lp4.class);
            // i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);

@@ -33,7 +33,7 @@ public class historico extends AppCompatActivity {
         int i =0;
         for(Profissao p : roberto){
             i++;
-                    print(""+i);
+                 //   print(""+i);
         }
         setContentView(R.layout.activity_historico);
 

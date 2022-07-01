@@ -29,7 +29,7 @@ public class Resultado extends AppCompatActivity {
         image.setImageResource(i.getFoto());
         descricao.setText(i.getDescricao());
         //TheSabidom();
-        Toast.makeText(this, "AAAA$#qäyt$WTBrywQGTGWGTEAXGHDGRHDUUTR", Toast.LENGTH_LONG).show();
+       // Toast.makeText(this, "AAAA$#qäyt$WTBrywQGTGWGTEAXGHDGRHDUUTR", Toast.LENGTH_LONG).show();
 
     }
 
