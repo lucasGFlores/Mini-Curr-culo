@@ -166,61 +166,61 @@ public class lp3 extends AppCompatActivity {
     }
     public int verificaq9(){ //verificar qual botão está selecionado e retornar ponto
         if(m9.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(p9.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(g9.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(b9.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq10(){
         if(m10.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(p10.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(g10.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(b10.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq11(){
         if(m11.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(p11.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(g11.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(b11.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq12(){
         if(m12.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(p12.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(g12.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(b12.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }

@@ -168,39 +168,39 @@ public class lp4 extends AppCompatActivity {
 
     public int verificaq13() { //verificar qual botão está selecionado e retornar ponto
         if (m13.getVisibility() == VISIBLE) {
-            return 1;
+            return -1;
         } else if (p13.getVisibility() == VISIBLE) {
-            return 2;
+            return 1;
         } else if (g13.getVisibility() == VISIBLE) {
-            return 3;
+            return 2;
         } else if (b13.getVisibility() == VISIBLE) {
-            return 4;
+            return 3;
         }
         return 0;
     }
 
     public int verificaq14() {
         if (m14.getVisibility() == VISIBLE) {
-            return 1;
+            return -1;
         } else if (p14.getVisibility() == VISIBLE) {
-            return 2;
+            return 1;
         } else if (g14.getVisibility() == VISIBLE) {
-            return 3;
+            return 2;
         } else if (b14.getVisibility() == VISIBLE) {
-            return 4;
+            return 3;
         }
         return 0;
     }
 
     public int verificaq15() {
         if (m15.getVisibility() == VISIBLE) {
-            return 1;
+            return -1;
         } else if (p15.getVisibility() == VISIBLE) {
-            return 2;
+            return 1;
         } else if (g15.getVisibility() == VISIBLE) {
-            return 3;
+            return 2;
         } else if (b15.getVisibility() == VISIBLE) {
-            return 4;
+            return 3;
         }
         return 0;
     }
@@ -220,7 +220,7 @@ public class lp4 extends AppCompatActivity {
 
 
         } else {
-            Toast.makeText(this, "Responda tudo né porra", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Responda tudo né", Toast.LENGTH_LONG).show();
         }
     }
 

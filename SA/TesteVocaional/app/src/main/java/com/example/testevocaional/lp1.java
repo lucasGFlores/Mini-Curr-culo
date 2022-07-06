@@ -209,61 +209,61 @@ public class lp1 extends AppCompatActivity {
     }
     public int verificaq1(){ //verificar qual botão está selecionado e retornar ponto
         if(m1.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(p1.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(g1.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(b1.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq2(){
         if(m2.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(p2.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(g2.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(b2.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq3(){
         if(m3.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(p3.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(g3.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(b3.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq4(){
         if(m4.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(p4.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(g4.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(b4.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }

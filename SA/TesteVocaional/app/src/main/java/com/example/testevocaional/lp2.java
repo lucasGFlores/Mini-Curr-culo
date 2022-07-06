@@ -169,61 +169,61 @@ public class lp2 extends AppCompatActivity {
 
     public int verificaq5(){ //verificar qual botão está selecionado e retornar ponto
         if(mc5.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(pc5.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(gc5.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(oc5.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq6(){
         if(mc6.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(pc6.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(gc6.getVisibility() == VISIBLE){
             return 7;
         }
         else if(oc6.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq7(){
         if(mc7.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(pc7.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(gc7.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(oc7.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
     public int verificaq8(){
         if(mc8.getVisibility() == VISIBLE){
-            return 1;
+            return -1;
         }
         else if(pc8.getVisibility() == VISIBLE){
-            return 2;
+            return 1;
         }
         else if(gc8.getVisibility() == VISIBLE){
-            return 3;
+            return 2;
         }
         else if(oc8.getVisibility() == VISIBLE){
-            return 4;
+            return 3;
         }
         return 0;
     }
