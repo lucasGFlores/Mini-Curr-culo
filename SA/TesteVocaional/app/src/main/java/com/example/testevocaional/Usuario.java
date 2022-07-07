@@ -16,10 +16,11 @@ public class Usuario {
     String login,senha;
     ArrayList<Profissao> res = new ArrayList<>();
 
+    public Usuario( String login, String senha) {
 
-    public Usuario(String login, String senha) {
         this.login = login;
         this.senha = senha;
+
     }
 
     public Usuario() {

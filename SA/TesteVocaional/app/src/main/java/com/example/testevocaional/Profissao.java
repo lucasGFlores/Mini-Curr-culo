@@ -5,11 +5,13 @@ public class Profissao {
     String nome, descricao;
     int foto;
     int resultado;
-    public Profissao(String nome, String descricao,int resultado,int foto) {
+
+    public Profissao( String nome, String descricao, int foto, int resultado) {
+
         this.nome = nome;
         this.descricao = descricao;
-        this.resultado = resultado;
         this.foto = foto;
+        this.resultado = resultado;
     }
 
     public Profissao() {
