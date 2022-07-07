@@ -213,9 +213,10 @@ public class lp4 extends AppCompatActivity {
 
     public void resultadoFoda(View v) {
         if (checar()) {
+           // Toast.makeText(this, "AQUIiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
             somaLegal4();
             TheSabidom();
-           // Toast.makeText(this, "AQUIiiiiiiiiiiiiiiii", Toast.LENGTH_LONG).show();
+
 
 
 
@@ -317,34 +318,35 @@ public class lp4 extends AppCompatActivity {
 
         roger.sort(Collections.reverseOrder());
         for (Profissao i : profissao) {
-
             if (i.getResultado() == roger.get(0)) {
-                //Toast.makeText(this, "ifei", Toast.LENGTH_SHORT).show();
-                masterResultado(login, i);
+               // Toast.makeText(this, "ifei", Toast.LENGTH_SHORT).show();
+                masterResultado(i, login);
                // Toast.makeText(this, "oieeeeeeeeeeeeeeee", Toast.LENGTH_SHORT).show();
                 break;
 
             }
+           // print("algo errado deu \n PROFISSÃO: "+i.getResultado()+"\n Roger 0: "+roger.get(0));
         }
 
 
     }
 
-    public void masterResultado(String login, Profissao i) {
+    public void masterResultado(Profissao i, String login) {
 
         Resultado.i = i;
-       pegarUserInfo(i);
+       pegarUserInfo(i,login);
        // Toast.makeText(this, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", Toast.LENGTH_SHORT).show();
         Intent i2 = new Intent(this, Resultado.class);
         startActivity(i2);
     }
-    public void pegarUserInfo(Profissao i){
+    public void pegarUserInfo(Profissao i,String login){
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Usuario");
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for(DataSnapshot d : snapshot.getChildren()){
                     Usuario u = d.getValue(Usuario.class);
+                    print(login );
                     if(u.getLogin().equals(login) && u.getSenha().equals(senha)){
                         DatabaseReference rootRef = FirebaseDatabase.getInstance().getReference();
                         i.setId(u.getId());
@@ -358,5 +360,9 @@ public class lp4 extends AppCompatActivity {
 
             }
         });
+    }
+    public void print(String msg) {
+        Toast t = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG);
+        t.show();
     }
 }

@@ -6,7 +6,7 @@ public class Profissao {
     int foto;
     int resultado;
 
-    public Profissao( String nome, String descricao, int foto, int resultado) {
+    public Profissao( String nome, String descricao, int resultado, int foto) {
 
         this.nome = nome;
         this.descricao = descricao;

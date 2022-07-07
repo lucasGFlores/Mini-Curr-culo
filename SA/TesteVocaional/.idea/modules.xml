@@ -4,9 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TesteVocaional.iml" filepath="$PROJECT_DIR$/.idea/modules/TesteVocaional.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TesteVocaional.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TesteVocaional.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TesteVocaional.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TesteVocaional.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TesteVocaional.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TesteVocaional.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TesteVocaional.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TesteVocaional.app.unitTest.iml" />
     </modules>
   </component>
 </project>
