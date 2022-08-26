@@ -23,7 +23,7 @@
 
 <b>Cursando </b>
 
-Escola S 2° Ano curso Técnico Integrado, com os cursos extras de T.I, Sistemas e Programação
+Escola S 3° Ano curso Técnico Integrado, com os cursos extras de T.I, Sistemas e Programação
 
 <b>bjetivos </b>
 
@@ -33,7 +33,7 @@ Conseguir estudo no campo de T.I, para conseguir um emprego na área especializa
 
 Wecxel - iniciante
 
-Google sites - iniciantes
+Google sites - intermediário
 
 Desenhar - intermediário
 
