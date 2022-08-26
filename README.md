@@ -14,6 +14,9 @@
 
 [programação de aplicativos/calculadora maneira](programacaoDeApp/calculadora%20maneira/calculadoramaneira/) escolhi por mostrar as possibilidades do android studio, sofware esse usado na programação de diversos aplicativos de celular em java
 
+[Aplicativo do cigarro](https://github.com/felix856/CigarroELetronico) essa foi uma dos dois aplicativos desse trimestre que deu uma experiência real de como é fazer uma aplicativo
+
+[Teste vocacional](SA/) experiência de montar uma equipe para fazer uma aplicativo
 [Autorias](autorias/)
 
 ## Lucas Gabriel Flores
