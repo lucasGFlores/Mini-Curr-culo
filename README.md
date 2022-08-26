@@ -18,7 +18,7 @@
 
 [Teste vocacional](SA/) experiência de montar uma equipe para fazer uma aplicativo
 
-[Autorias](autorias/)
+[Autorias](Autorias/)
 
 ## Lucas Gabriel Flores
 <b> Formação acadêmica </b>
