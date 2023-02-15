@@ -29,7 +29,7 @@
 
 Escola S 3° Ano curso Técnico Integrado, com os cursos extras de T.I, Sistemas e Programação
 
-<b>bjetivos </b>
+<b>Objetivos </b>
 
 Conseguir estudo no campo de T.I, para conseguir um emprego na área especializada de Cyber segurança
 
