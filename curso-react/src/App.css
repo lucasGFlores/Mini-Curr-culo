@@ -1,0 +1,11 @@
+.container {
+  font-size: 10px;
+  overflow: auto;
+  min-height: 300px;
+  margin: 30px auto;
+  max-width: 500px;
+  border: 2px solid chartreuse;
+  padding: 30px;
+  border-radius: 10px;
+}
+
