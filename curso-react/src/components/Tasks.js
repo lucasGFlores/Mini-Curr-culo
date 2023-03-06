@@ -1,6 +1,8 @@
 import React from "react";
 import Task from "./Task";
+
 const Tasks = ({ tasks,handleTaskClickCompleted,handleTaskRemove }) => {
+ 
   return (
     <>
       {tasks.map((task) => (

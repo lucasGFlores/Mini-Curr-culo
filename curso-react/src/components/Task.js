@@ -3,8 +3,13 @@ import "./Button";
 import Button from "./Button";
 import "./Task.css";
 import { CgClose, CgInfo } from "react-icons/cg";
+import { useHistory } from "react-router-dom";
 
 const Task = ({ task, handleTaskClickCompleted, handleTaskRemove }) => {
+  const history = useHistory();
+  const handleTaskDetailsClick = ()=>{
+    history.push(`/${task.tittle}`)
+  }
   return (
     <div
       className="task-container"
@@ -20,12 +25,12 @@ const Task = ({ task, handleTaskClickCompleted, handleTaskRemove }) => {
       >
         {task.tittle}
       </div>
-      <div id="boxButton">
+      <div className="boxButton">
         <Button className onClick={() => handleTaskRemove(task.id)}>
           <CgClose />
         </Button>
 
-        <Button>
+        <Button onClick={handleTaskDetailsClick}>
           <CgInfo />
         </Button>
       </div>

@@ -17,9 +17,10 @@
 }
 .add-task-button-container {
   margin-left: 20px;
-  flex: 1;
-  transition: 250ms ease-in-out;
 }
-.add-task-button-container button:hover {
-  color: white;
+.boxButton{
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
 }
+

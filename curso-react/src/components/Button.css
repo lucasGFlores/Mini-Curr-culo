@@ -1,4 +1,4 @@
-.add-button{
+.button{
         background-color: chartreuse;
         height: 40px;
         padding: 0 10px;
@@ -9,6 +9,10 @@
         font-weight: bold;
         cursor: pointer;
         border: none;
-      
-    
+        transition: 250ms ease-in-out;
 }
+.button:hover{
+        background-color: #444;
+        color: chartreuse;
+}
+
