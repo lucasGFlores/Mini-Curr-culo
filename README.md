@@ -2,9 +2,7 @@
 
  - 📚 estudando javaScript,node.Js e React
  - 👩‍💻 trabalhando num projeto em react de lista de afazeres
- 
- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lucasGFlores&show_icons=true&theme=tokyonight&hide=stars)](https://github.com/anuraghazra/github-readme-stats)
- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lucasGFlores&theme=tokyonight&layout=compact&height="300cm"&text_color=9dbebb)](https://github.com/anuraghazra/github-readme-stats)
+
  
 <a href="" target="_blank"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a> 
 <a href="" target="_blank"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a> 
